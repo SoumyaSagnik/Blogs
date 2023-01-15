@@ -2,8 +2,6 @@ import Code from "../components/Code";
 import { motion } from "framer-motion";
 
 const JSArrayFunctions = () => {
-  const leftCurly = "{";
-  const rightCurly = "}";
   const left = "(";
   const right = ")";
   const greater = ">";
