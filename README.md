@@ -1,3 +1,4 @@
-# Notes App
+# Blogs
 
-## Mongodb
+## JS Array Functions
+## CSS Specificity
