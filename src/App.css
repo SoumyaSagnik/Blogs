@@ -322,11 +322,11 @@ footer li {
 
 @media (max-width: 680px) {
   .code header {
-    width: 90vw;
+    width: 87vw;
   }
 
   .code-body {
-    width: 90vw;
+    width: 87vw;
   }
 }
 
