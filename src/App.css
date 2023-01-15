@@ -227,18 +227,7 @@ footer li {
   width: 40rem;
   height: 1.25rem;
   border-radius: .5rem .5rem 0 0;
-  display: flex;
-  justify-content: flex-end;
   background-color: rgba(255, 235, 205, 0.541);
-}
-
-.code header button {
-  margin-right: 1rem;
-  font-family: inherit;
-  background: none;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
 }
 
 .code-body {
@@ -333,11 +322,11 @@ footer li {
 
 @media (max-width: 680px) {
   .code header {
-    width: 100%;
+    width: 90vw;
   }
 
   .code-body {
-    width: 100%;
+    width: 90vw;
   }
 }
 
