@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "topic": "JS Array ()",
+    "type": "js",
+    "desc": "Commonly used array functions in JavaScript",
+    "link": "/js-array-functions",
+    "search": ["javascript", "functions"]
+  },
+  {
+    "id": 2,
+    "topic": "CSS Specificity",
+    "type": "css",
+    "desc": "Specifictity in CSS.",
+    "link": "/css-specificity",
+    "search": ["css"]
+  }
+]

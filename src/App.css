@@ -1,38 +1,480 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #181818;
+  color: whitesmoke;
+  font-family: 'Gentium Plus', serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main {
   display: flex;
+  position: relative;
+  min-height: 100vh;
+}
+
+aside {
+  margin-top: 3rem;
+  min-width: 10rem;
+  color: #20B46A;
+  background-color: #181818;
+  padding: 1rem 0 1rem 1rem;
+}
+
+aside a {
+  text-decoration: none;
+}
+
+aside a:visited {
+  color: inherit;
+}
+
+aside li {
+  font-size: 1.2rem;
+  list-style: none;
+  cursor: pointer;
+}
+
+aside li:hover,
+aside a:hover {
+  text-decoration: underline;
+  color: #41f39a;
+}
+
+aside ul {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #212121;
+  z-index: 1;
+}
+
+.content {
+  width: 100%;
+  margin-top: 3rem;
+  padding: .5rem 1.5rem;
+  font-size: 1.5rem;
+  color: #A3A3A3;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 20%;
+  column-gap: 1rem;
+  row-gap: .3rem;
+  margin-bottom: 7.5rem;
+}
+
+.content.page {
+  flex-wrap: nowrap;
   flex-direction: column;
+}
+
+.content.page h1 {
+  color: #41f39a;
+}
+
+.content.page h3 {
+  color: rgb(245, 180, 83);
+  text-decoration: underline;
+}
+
+.content.page ul {
+  list-style: none;
+}
+
+.logo {
+  margin-left: 5vw;
+}
+
+.logo h1 {
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: whitesmoke
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.search {
+  margin-right: 10vw;
+  display: flex;
+  padding: .5rem;
+  gap: .5rem;
+}
+
+.search input {
+  outline: none;
+  border-radius: .125rem;
+  border: .05rem solid grey;
+  width: 20vw;
+  max-width: 20rem;
+  min-width: 12rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  padding: .1rem .3rem;
+  background: none;
+  color: blanchedalmond;
+}
+
+.search input:focus {
+  border: .05rem solid blanchedalmond;
+}
+
+.topic {
+  width: 17.55rem;
+  height: 13rem;
+  background-color: #212121;
+  margin-top: 0.75rem;
+  border-radius: .75rem;
+  position: relative;
+  box-shadow: 0 0 .35rem rgba(0, 0, 0, .7);
+  transition: all .5s ease;
+}
+
+.topic:hover {
+  background-color: #252525;
+  scale: 105%;
+  box-shadow: 0.1rem 0.1rem .35rem rgba(0, 0, 0, .5), -0.1rem 0 .35rem rgba(0, 0, 0, .5);
+}
+
+.topic img {
+  position: absolute;
+  bottom: .25rem;
+  right: .5rem;
+  width: 1.5rem;
+}
+
+.topic button {
+  font-family: inherit;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 0rem;
+  left: 1rem;
+  border-radius: .25rem;
+  border: none;
+  cursor: pointer;
+  background: none;
+  color: blanchedalmond;
+}
+
+.topic a {
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.topic h3 {
+  position: absolute;
+  left: 1rem;
+  color: blanchedalmond;
+}
+
+.topic p {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 30%;
+  left: 1rem;
+  line-height: 1.4rem;
+}
+
+footer {
+  position: absolute;
+  background-color: #292929;
+  width: 100%;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 5rem;
+  bottom: 0;
 }
 
-.App-link {
-  color: #61dafb;
+footer a {
+  text-decoration: none;
+  color: inherit;
+  margin-top: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+footer ul {
+  padding: .75rem;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  width: 100%;
+}
+
+footer li {
+  display: flex;
+  gap: .5rem;
+}
+
+.code header {
+  width: 40rem;
+  height: 1.25rem;
+  border-radius: .5rem .5rem 0 0;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(255, 235, 205, 0.541);
+}
+
+.code header button {
+  margin-right: 1rem;
+  font-family: inherit;
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.code-body {
+  background-color: #212121;
+  color: #A3A3A3;
+  min-height: 3rem;
+  width: 40rem;
+  border-radius: 0 0 .5rem .5rem;
+  padding: .25rem .75rem;
+  font-size: 1.2rem;
+  overflow-x: scroll;
+  margin-bottom: 1rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.blanchedalmond {
+  color: blanchedalmond;
+}
+
+.green {
+  color: #20B46A;
+  font-weight: bold;
+}
+
+.grn {
+  color: green;
+}
+
+.pink {
+  color: rgb(186, 38, 87);
+}
+
+.red {
+  color: rgb(186, 33, 33);
+}
+
+.white {
+  color: rgba(255, 255, 255, .8);
+}
+
+.yellow {
+  color: goldenrod;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.space-all {
+  margin: .75rem 0;
+}
+
+.space-top {
+  margin-top: .75rem;
+}
+
+.space-bottom {
+  margin-bottom: .75rem;
+}
+
+
+@media (max-width: 1115px) {
+  aside {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+
+  .content {
+    justify-content: center;
   }
+}
+
+@media (max-width: 960px) {
+  footer {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 830px) {
+  footer ul {
+    gap: 1.5rem
+  }
+}
+
+@media (max-width: 775px) {
+  footer {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .code header {
+    width: 100%;
+  }
+
+  .code-body {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  footer ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .1rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .search {
+    margin-right: 5vw;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .search,
+  .logo {
+    scale: .8;
+  }
+
+  .logo {
+    margin-left: 1vw;
+  }
+
+  .search {
+    margin-right: 1.5vw;
+  }
+
+}
+
+@media (max-width: 330px) {
+
+  .search,
+  .logo {
+    scale: .7;
+  }
+
+  .search {
+    margin-right: 50vw;
+  }
+
+  .topic p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 300px) {
+
+  .search {
+    scale: .5;
+  }
+
+  footer ul {
+    font-size: 1rem;
+  }
+}
+
+::-webkit-scrollbar {
+  width: .4rem;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 100vw;
+  margin-block: .1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #20B46A;
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #41f39a;
+}
+
+.code-body::-webkit-scrollbar {
+  height: .33rem;
+}
+
+.code-body::-webkit-scrollbar-thumb {
+  background: rgba(255, 235, 205, 0.541);
+  border-radius: 100vw;
+}
+
+.code-body::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 235, 205, 0.841);
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: whitesmoke;
+  background: black;
+}
+
+::selection {
+  color: whitesmoke;
+  background: black;
+}
+
+.green::selection {
+  color: #22f48b;
+}
+
+.blanchedalmond::selection {
+  color: rgb(251, 206, 137);
+}
+
+.grn::selection {
+  color: rgb(6, 244, 6);
+}
+
+.pink::selection {
+  color: rgb(234, 13, 101);
+}
+
+.yellow::selection {
+  color: rgb(223, 223, 40);
+}
+
+.red::selection {
+  color: red;
+}
+
+aside a::selection {
+  color: rgb(10, 243, 22);
+}
+
+.content.page h1::selection {
+  color: #5ff608;
+}
+
+.content.page h3::selection {
+  color: rgb(245, 148, 4);
 }
