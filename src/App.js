@@ -10,6 +10,7 @@ import { AnimatePresence } from "framer-motion";
 
 import CSSSpecificity from "./Pages/CSSSpecificity";
 import JSArrayFunctions from "./Pages/JSArrayFunctions";
+import Git from "./Pages/Git";
 
 const App = () => {
   const navigate = useNavigate();
@@ -52,6 +53,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <JSArrayFunctions />
+              </>
+            }
+          />
+          <Route
+            path="/git"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <Git />
               </>
             }
           />

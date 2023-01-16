@@ -279,6 +279,11 @@ footer li {
   font-weight: bold;
 }
 
+.em {
+  font-style: italic;
+  font-size: .9rem;
+}
+
 .space-all {
   margin: .75rem 0;
 }
@@ -289,6 +294,10 @@ footer li {
 
 .space-bottom {
   margin-bottom: .75rem;
+}
+
+.space-left {
+  margin-left: .75rem;
 }
 
 

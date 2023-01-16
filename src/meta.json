@@ -14,5 +14,13 @@
     "desc": "Specifictity in CSS.",
     "link": "/css-specificity",
     "search": ["style"]
+  },
+  {
+    "id": 3,
+    "topic": "Git",
+    "type": "git",
+    "desc": "List of commonly used git commands.",
+    "link": "/git",
+    "search": ["github", "version control"]
   }
 ]
