@@ -3,7 +3,7 @@
     "id": 1,
     "topic": "JS Array ()",
     "type": "js",
-    "desc": "Commonly used array functions in JavaScript",
+    "desc": "Commonly used array functions in JavaScript.",
     "link": "/js-array-functions",
     "search": ["javascript", "functions"]
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "topic": "Git",
     "type": "git",
-    "desc": "List of commonly used git commands.",
+    "desc": "An overview of git and commonly used git commands.",
     "link": "/git",
     "search": ["github", "version control"]
   }
