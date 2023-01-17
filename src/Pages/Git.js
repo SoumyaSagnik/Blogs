@@ -657,6 +657,20 @@ const Git = () => {
             <p>git reset --hard commit-hash</p>
           </div>
         </pre>
+        <h3>.gitignore</h3>
+        <p>
+          It is a file that tells git which files or directories to{" "}
+          <span className="green">ignore </span>when committing changes to a
+          repository. The file contains a list of patterns or specific file
+          names that git should ignore, one per line. It is typically{" "}
+          <span className="green">placed</span> in the root directory of the
+          repository, and it applies to all subdirectories.
+        </p>
+        <p className="white">
+          Note: don't forget to add <span className="green">.env</span> and{" "}
+          <span className="green">node_modules</span> files to the .gitignore
+          file before making any commits to the remote repository.
+        </p>
       </div>
     </motion.div>
   );
