@@ -28,6 +28,7 @@ aside {
 
 aside a {
   text-decoration: none;
+  color: inherit;
 }
 
 aside a:visited {
