@@ -11,6 +11,7 @@ import { AnimatePresence } from "framer-motion";
 import CSSSpecificity from "./Pages/CSSSpecificity";
 import JSArrayFunctions from "./Pages/JSArrayFunctions";
 import Git from "./Pages/Git";
+import JSHoisting from "./Pages/JSHoisting";
 
 const App = () => {
   const navigate = useNavigate();
@@ -62,6 +63,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <Git />
+              </>
+            }
+          />
+          <Route
+            path="/js-hoisting"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <JSHoisting />
               </>
             }
           />

@@ -5,3 +5,5 @@
 ## CSS Specificity
 
 ## Git
+
+## Hoisting in JS

@@ -22,5 +22,13 @@
     "desc": "An overview of git and commonly used git commands.",
     "link": "/git",
     "search": ["github", "version control"]
+  },
+  {
+    "id": 4,
+    "topic": "Hoisting in JS",
+    "type": "js",
+    "desc": "Understand hoisting in JavaScript",
+    "link": "/js-hoisting",
+    "search": ["javascript"]
   }
 ]
