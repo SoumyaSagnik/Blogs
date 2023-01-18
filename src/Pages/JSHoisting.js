@@ -407,10 +407,10 @@ const JSHoisting = () => {
               <p>
                 When we assign a function to a variable and try to call that
                 function before its declaration, we get an{" "}
-                <span className="red">error</span>:{" "}
-                <span className="red">
-                  Uncaught TypeError: {"<variable-name>"} is not a function
-                </span>
+                <span className="red">error</span>{" "}
+              </p>
+              <p className="red">
+                Uncaught TypeError: {"<variable-name>"} is not a function
               </p>
             </li>
           </ol>
