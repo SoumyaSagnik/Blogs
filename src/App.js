@@ -12,6 +12,7 @@ import CSSSpecificity from "./Pages/CSSSpecificity";
 import JSArrayFunctions from "./Pages/JSArrayFunctions";
 import Git from "./Pages/Git";
 import JSHoisting from "./Pages/JSHoisting";
+import IWJSFunctions from "./Pages/IWJSFunctions";
 
 const App = () => {
   const navigate = useNavigate();
@@ -72,6 +73,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <JSHoisting />
+              </>
+            }
+          />
+          <Route
+            path="/js-iw-functions"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <IWJSFunctions />
               </>
             }
           />

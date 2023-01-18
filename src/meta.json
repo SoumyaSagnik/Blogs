@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "topic": "JS Array ()",
+    "topic": "JS Array Functions",
     "type": "js",
     "desc": "Commonly used array functions in JavaScript.",
     "link": "/js-array-functions",
-    "search": ["javascript", "functions"]
+    "search": ["javascript"]
   },
   {
     "id": 2,
@@ -27,8 +27,16 @@
     "id": 4,
     "topic": "Hoisting in JS",
     "type": "js",
-    "desc": "Understand hoisting in JavaScript",
+    "desc": "Understand hoisting in JavaScript.",
     "link": "/js-hoisting",
+    "search": ["javascript"]
+  },
+  {
+    "id": 5,
+    "topic": "Internal Working of JS Functions",
+    "type": "js",
+    "desc": "A brief overview of how JavaScript functions run behind the scenes.",
+    "link": "/js-iw-functions",
     "search": ["javascript"]
   }
 ]

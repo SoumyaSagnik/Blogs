@@ -25,25 +25,22 @@ const JSHoisting = () => {
           JavaScript program is run, a{" "}
           <span className="green">Global Execution Context</span> is created.
           Every execution context has two phases:
-          <ul>
-            <li>
-              <p className="space-top">
-                <span className="blanchedalmond">Memory Creation Phase: </span>{" "}
-                This is where all the <span className="green">variables</span>{" "}
-                and{" "}
-                <span className="" green>
-                  functions
-                </span>{" "}
-                are stored as <span className="green">key-value</span> pairs.
-              </p>
-              <p>
-                <span className="blanchedalmond">Code Execution Phase: </span>{" "}
-                This is where code is <span className="green">executed</span>{" "}
-                one line at a time.
-              </p>
-            </li>
-          </ul>
         </p>
+        <ul>
+          <li>
+            <p className="space-top">
+              <span className="blanchedalmond">Memory Creation Phase: </span>{" "}
+              This is where all the <span className="green">variables</span> and{" "}
+              <span className="green">functions</span> are stored as{" "}
+              <span className="green">key-value</span> pairs.
+            </p>
+            <p>
+              <span className="blanchedalmond">Code Execution Phase: </span>{" "}
+              This is where code is <span className="green">executed</span> one
+              line at a time.
+            </p>
+          </li>
+        </ul>
         <p className="space-all">Let's understand this through an example.</p>
         <Code />
         <pre>

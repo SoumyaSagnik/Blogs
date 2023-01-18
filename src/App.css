@@ -87,6 +87,18 @@ aside ul {
   color: #41f39a;
 }
 
+.content.page a,
+.content.page a:visited {
+  color: rgb(189, 20, 215);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content.page a:hover {
+  text-decoration: underline;
+  color: rgb(223, 95, 243);
+}
+
 .content.page h3 {
   color: rgb(245, 180, 83);
   text-decoration: underline;
@@ -179,14 +191,16 @@ aside ul {
 
 .topic h3 {
   position: absolute;
+  top: .5rem;
   left: 1rem;
   color: blanchedalmond;
+  line-height: 1.75rem;
 }
 
 .topic p {
   font-size: 1.2rem;
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 1rem;
   line-height: 1.4rem;
 }
@@ -479,4 +493,8 @@ aside a::selection {
 
 .content.page h3::selection {
   color: rgb(245, 148, 4);
+}
+
+.content.page a::selection {
+  color: rgb(186, 9, 139);
 }
