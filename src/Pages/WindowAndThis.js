@@ -41,16 +41,16 @@ const WindowAndThis = () => {
           <span className="green">Global Execution Context</span>,{" "}
           <span className="green">global object(window for browser)</span> is
           created.
-          <p>
-            Whenever an execution context is created, a{" "}
-            <span className="green">this</span> is created along with it.
-          </p>
-          <p>
-            We know that an execution context is created at global level as well
-            as whenever a function call is incurred. So everytime a{" "}
-            <span className="green">this</span> will be created along with the
-            execution context.
-          </p>
+        </p>
+        <p>
+          Whenever an execution context is created, a{" "}
+          <span className="green">this</span> is created along with it.
+        </p>
+        <p>
+          We know that an execution context is created at global level as well
+          as whenever a function call is incurred. So everytime a{" "}
+          <span className="green">this</span> will be created along with the
+          execution context.
         </p>
         <p className="space-bottom">
           In the <span className="green">global space</span>, this points to the
