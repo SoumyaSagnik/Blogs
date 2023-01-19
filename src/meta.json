@@ -54,5 +54,13 @@
     "desc": "Understand the significane of undefined.",
     "link": "/js-undefinedVsNotDefined",
     "search": ["javascript"]
+  },
+  {
+    "id": 8,
+    "topic": "JS is a loosely typed language",
+    "type": "js",
+    "desc": "Understand what a loosely typed language is.",
+    "link": "/js-loosely-typed",
+    "search": ["javascript"]
   }
 ]

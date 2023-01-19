@@ -15,6 +15,7 @@ import JSHoisting from "./Pages/JSHoisting";
 import IWJSFunctions from "./Pages/IWJSFunctions";
 import WindowAndThis from "./Pages/WindowAndThis";
 import UndefinedVsNotDefined from "./Pages/UndefinedVsNotDefined";
+import JSLooselyTyped from "./Pages/JSLooselyTyped";
 
 const App = () => {
   const navigate = useNavigate();
@@ -102,6 +103,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <UndefinedVsNotDefined />
+              </>
+            }
+          />
+          <Route
+            path="/js-loosely-typed"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <JSLooselyTyped />
               </>
             }
           />
