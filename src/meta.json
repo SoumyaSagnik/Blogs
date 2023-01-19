@@ -38,5 +38,13 @@
     "desc": "A brief overview of how JavaScript functions run behind the scenes.",
     "link": "/js-iw-functions",
     "search": ["javascript"]
+  },
+  {
+    "id": 6,
+    "topic": "window & this keyword",
+    "type": "js",
+    "desc": "Introduction to window and this keyword in JavaScript.",
+    "link": "/js-windowAndthis",
+    "search": ["javascript"]
   }
 ]
