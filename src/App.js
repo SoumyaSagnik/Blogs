@@ -14,6 +14,7 @@ import Git from "./Pages/Git";
 import JSHoisting from "./Pages/JSHoisting";
 import IWJSFunctions from "./Pages/IWJSFunctions";
 import WindowAndThis from "./Pages/WindowAndThis";
+import UndefinedVsNotDefined from "./Pages/UndefinedVsNotDefined";
 
 const App = () => {
   const navigate = useNavigate();
@@ -92,6 +93,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <WindowAndThis />
+              </>
+            }
+          />
+          <Route
+            path="/js-undefinedVsNotDefined"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <UndefinedVsNotDefined />
               </>
             }
           />

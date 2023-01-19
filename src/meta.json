@@ -46,5 +46,13 @@
     "desc": "Introduction to window and this keyword in JavaScript.",
     "link": "/js-windowAndthis",
     "search": ["javascript"]
+  },
+  {
+    "id": 7,
+    "topic": "undefined vs not defined in JS",
+    "type": "js",
+    "desc": "Understand the significane of undefined.",
+    "link": "/js-undefinedVsNotDefined",
+    "search": ["javascript"]
   }
 ]
