@@ -18,6 +18,7 @@ import UndefinedVsNotDefined from "./Pages/UndefinedVsNotDefined";
 import JSLooselyTyped from "./Pages/JSLooselyTyped";
 import ScopeAndLE from "./Pages/ScopeAndLE";
 import JSHoisting2 from "./Pages/JSHoisting2";
+import Errors from "./Pages/Errors";
 
 const App = () => {
   const navigate = useNavigate();
@@ -132,6 +133,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <JSHoisting2 />
+              </>
+            }
+          />
+          <Route
+            path="/js-errors"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <Errors />
               </>
             }
           />
