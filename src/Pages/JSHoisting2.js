@@ -45,7 +45,7 @@ const JSHoisting2 = () => {
             </p>
             <p className="space-top">Output</p>
             <p className="red">
-              Uncaught ReferenceError: a is not defined at {"<anonymous>"}
+              Uncaught ReferenceError: Cannot access 'a' before initialization
             </p>
           </div>
         </pre>
@@ -88,8 +88,8 @@ const JSHoisting2 = () => {
           <span className="green">undefined</span>. But they're in a{" "}
           <span className="green">temporal dead zone</span> i.e., JavaScript
           recognizes that they've been declared but it won't let you use them
-          until they're <span className="green">initialized</span>. Hence the
-          error in the above example.
+          until they're <span className="green">declared</span>. Hence the error
+          in the above example.
         </p>
         <p className="space all white">
           <span className="green">Temporal dead zone: </span> It is the time
