@@ -6,7 +6,7 @@
 
 ## Git
 
-## Hoisting in JS
+## Hoisting in JS with var
 
 ## Internal Working of JS Functions
 
@@ -17,3 +17,5 @@
 ## JS is a loosely typed language
 
 ## Scope and Lexical Environment in JS
+
+## Hoisting in JS with let and const

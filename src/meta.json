@@ -70,5 +70,13 @@
     "desc": "Deep dive into scope chain and lexical environment in JavaScript.",
     "link": "/js-scope&le",
     "search": ["javascript"]
+  },
+  {
+    "id": 10,
+    "topic": "Hoisting in JS with let and const",
+    "type": "js",
+    "desc": "An overview of how hoisting works with let and const.",
+    "link": "/js-hoisting-let&const",
+    "search": ["javascript"]
   }
 ]

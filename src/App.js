@@ -17,6 +17,7 @@ import WindowAndThis from "./Pages/WindowAndThis";
 import UndefinedVsNotDefined from "./Pages/UndefinedVsNotDefined";
 import JSLooselyTyped from "./Pages/JSLooselyTyped";
 import ScopeAndLE from "./Pages/ScopeAndLE";
+import JSHoisting2 from "./Pages/JSHoisting2";
 
 const App = () => {
   const navigate = useNavigate();
@@ -122,6 +123,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <ScopeAndLE />
+              </>
+            }
+          />
+          <Route
+            path="/js-hoisting-let&const"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <JSHoisting2 />
               </>
             }
           />
