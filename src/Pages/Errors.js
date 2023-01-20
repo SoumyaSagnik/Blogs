@@ -10,7 +10,7 @@ const Errors = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
-        <h1>Types of Error in JavaScript</h1>
+        <h1>Types of Errors in JavaScript</h1>
         <h3>Syntax Error</h3>
         <p className="space-bottom">
           This is the most common error in JavaScript. It is caused by the

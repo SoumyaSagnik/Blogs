@@ -81,7 +81,7 @@
   },
   {
     "id": 11,
-    "topic": "Types of Error in JS",
+    "topic": "Types of Errors in JS",
     "type": "js",
     "desc": "Common types of errors in JavaScript with examples.",
     "link": "/js-errors",

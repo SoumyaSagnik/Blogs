@@ -20,4 +20,4 @@
 
 ## Hoisting in JS with let and const
 
-## Types Errors in JS
+## Types of Errors in JS
