@@ -19,3 +19,5 @@
 ## Scope and Lexical Environment in JS
 
 ## Hoisting in JS with let and const
+
+## Errors in JS

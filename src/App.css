@@ -38,7 +38,7 @@ aside h2 {
 aside a {
   text-decoration: none;
   color: inherit;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 aside a:visited {
@@ -58,7 +58,7 @@ aside a:hover {
 }
 
 aside ul {
-  text-align: center;
+  text-align: left;
   margin-top: 1rem;
 }
 
