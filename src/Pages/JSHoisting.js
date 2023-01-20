@@ -12,7 +12,7 @@ const JSHoisting = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
-        <h1>Hoisting in JavaScript</h1>
+        <h1>Hoisting in JavaScript with var</h1>
         <p className="white">
           Hoisting is the phenomenon in JavaScript by which we can access
           variables and functions without any error even before initializing
