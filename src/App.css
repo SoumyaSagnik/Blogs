@@ -20,15 +20,25 @@ main {
 
 aside {
   margin-top: 3rem;
-  min-width: 10rem;
+  width: 10rem;
   color: #20B46A;
   background-color: #181818;
   padding: 1rem 0 1rem 1rem;
+  line-height: 1.5rem;
+}
+
+aside h2 {
+  font-size: 1.7rem;
+  margin-top: 1.35rem;
+  text-align: center;
+  margin-bottom: 1.75rem;
+  ;
 }
 
 aside a {
   text-decoration: none;
   color: inherit;
+  font-size: 1rem;
 }
 
 aside a:visited {
@@ -36,7 +46,7 @@ aside a:visited {
 }
 
 aside li {
-  font-size: 1.2rem;
+  margin-bottom: .35rem;
   list-style: none;
   cursor: pointer;
 }
@@ -319,6 +329,10 @@ footer li {
   margin-left: 1.5rem;
 }
 
+.space-list2 {
+  margin-left: 3rem;
+}
+
 @media (max-width: 1115px) {
   aside {
     display: none;
@@ -485,6 +499,10 @@ footer li {
 
 aside a::selection {
   color: rgb(10, 243, 22);
+}
+
+aside h2::selection {
+  color: #5ff608;
 }
 
 .content.page h1::selection {

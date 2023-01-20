@@ -13,6 +13,7 @@ const Sidebar = ({ data }) => {
       transition={{ duration: 0.25 }}
     >
       <aside>
+        <h2>Other Topics</h2>
         <ul>
           {asideLinks.map((item) => (
             <li key={item.id}>

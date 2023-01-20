@@ -62,5 +62,13 @@
     "desc": "Understand what a loosely typed language is.",
     "link": "/js-loosely-typed",
     "search": ["javascript"]
+  },
+  {
+    "id": 9,
+    "topic": "Scope & Lexical Environment in JS",
+    "type": "js",
+    "desc": "Deep dive into scope chain and lexical environment in JavaScript.",
+    "link": "/js-scope&le",
+    "search": ["javascript"]
   }
 ]

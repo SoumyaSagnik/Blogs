@@ -16,6 +16,7 @@ import IWJSFunctions from "./Pages/IWJSFunctions";
 import WindowAndThis from "./Pages/WindowAndThis";
 import UndefinedVsNotDefined from "./Pages/UndefinedVsNotDefined";
 import JSLooselyTyped from "./Pages/JSLooselyTyped";
+import ScopeAndLE from "./Pages/ScopeAndLE";
 
 const App = () => {
   const navigate = useNavigate();
@@ -112,6 +113,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <JSLooselyTyped />
+              </>
+            }
+          />
+          <Route
+            path="/js-scope&le"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <ScopeAndLE />
               </>
             }
           />

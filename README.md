@@ -15,3 +15,5 @@
 ## undefined vs not defined in JS
 
 ## JS is a loosely typed language
+
+## Scope and Lexical Environment in JS
