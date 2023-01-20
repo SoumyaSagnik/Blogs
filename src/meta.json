@@ -25,9 +25,9 @@
   },
   {
     "id": 4,
-    "topic": "Hoisting in JS",
+    "topic": "Hoisting in JS with var",
     "type": "js",
-    "desc": "Understand hoisting in JavaScript.",
+    "desc": "Understand hoisting in JavaScript using var.",
     "link": "/js-hoisting",
     "search": ["javascript"]
   },
