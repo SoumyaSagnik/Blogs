@@ -86,6 +86,7 @@ aside ul {
   column-gap: 1rem;
   row-gap: .3rem;
   margin-bottom: 7.5rem;
+  justify-content: center;
 }
 
 .content.page {
