@@ -19,6 +19,7 @@ import JSLooselyTyped from "./Pages/JSLooselyTyped";
 import ScopeAndLE from "./Pages/ScopeAndLE";
 import JSHoisting2 from "./Pages/JSHoisting2";
 import Errors from "./Pages/Errors";
+import BlockScopeAndShadowing from "./Pages/BlockScopeAndShadowing";
 
 const App = () => {
   const navigate = useNavigate();
@@ -142,6 +143,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <Errors />
+              </>
+            }
+          />
+          <Route
+            path="/js-block&shadowing"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <BlockScopeAndShadowing />
               </>
             }
           />

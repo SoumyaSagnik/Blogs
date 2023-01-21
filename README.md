@@ -21,3 +21,5 @@
 ## Hoisting in JS with let and const
 
 ## Types of Errors in JS
+
+## Block Scope & Shadowing in JS

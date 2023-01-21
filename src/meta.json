@@ -86,5 +86,13 @@
     "desc": "Common types of errors in JavaScript with examples.",
     "link": "/js-errors",
     "search": ["javascript"]
+  },
+  {
+    "id": 12,
+    "topic": "Block Scope & Shadowing in JS",
+    "type": "js",
+    "desc": "Deep dive into blocks, block scope and an overview of shadowing in JavaScript.",
+    "link": "/js-block&shadowing",
+    "search": ["javascript"]
   }
 ]
