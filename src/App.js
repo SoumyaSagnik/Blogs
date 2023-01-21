@@ -20,6 +20,7 @@ import ScopeAndLE from "./Pages/ScopeAndLE";
 import JSHoisting2 from "./Pages/JSHoisting2";
 import Errors from "./Pages/Errors";
 import BlockScopeAndShadowing from "./Pages/BlockScopeAndShadowing";
+import Closures from "./Pages/Closures";
 
 const App = () => {
   const navigate = useNavigate();
@@ -152,6 +153,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <BlockScopeAndShadowing />
+              </>
+            }
+          />
+          <Route
+            path="/js-closures"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <Closures />
               </>
             }
           />

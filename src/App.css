@@ -334,6 +334,10 @@ footer li {
   margin-left: 3rem;
 }
 
+.space-list3 {
+  margin-left: 4.5rem;
+}
+
 @media (max-width: 1115px) {
   aside {
     display: none;

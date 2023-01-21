@@ -94,5 +94,13 @@
     "desc": "Deep dive into blocks, block scope and an overview of shadowing in JavaScript.",
     "link": "/js-block&shadowing",
     "search": ["javascript"]
+  },
+  {
+    "id": 13,
+    "topic": "Closures in JS",
+    "type": "js",
+    "desc": "Deep dive into closures in JavaScript.",
+    "link": "/js-closures",
+    "search": ["javascript"]
   }
 ]

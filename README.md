@@ -1,25 +1,27 @@
 # Blogs
 
-## JS Array Functions
+### JS Array Functions
 
-## CSS Specificity
+### CSS Specificity
 
-## Git
+### Git
 
-## Hoisting in JS with var
+### Hoisting in JS with var
 
-## Internal Working of JS Functions
+### Internal Working of JS Functions
 
-## window and this keyword in JS
+### window and this keyword in JS
 
-## undefined vs not defined in JS
+### undefined vs not defined in JS
 
-## JS is a loosely typed language
+### JS is a loosely typed language
 
-## Scope and Lexical Environment in JS
+### Scope and Lexical Environment in JS
 
-## Hoisting in JS with let and const
+### Hoisting in JS with let and const
 
-## Types of Errors in JS
+### Types of Errors in JS
 
-## Block Scope & Shadowing in JS
+### Block Scope & Shadowing in JS
+
+### Closures in JS
