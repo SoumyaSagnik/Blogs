@@ -22,6 +22,7 @@ import Errors from "./Pages/Errors";
 import BlockScopeAndShadowing from "./Pages/BlockScopeAndShadowing";
 import Closures from "./Pages/Closures";
 import JSInterview from "./Pages/JSInterview";
+import Jargons from "./Pages/Jargons";
 
 const App = () => {
   const navigate = useNavigate();
@@ -172,6 +173,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <JSInterview />
+              </>
+            }
+          />
+          <Route
+            path="/js-jargons"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <Jargons />
               </>
             }
           />

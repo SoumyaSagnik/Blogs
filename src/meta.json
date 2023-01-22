@@ -110,5 +110,13 @@
     "desc": "Output based interview qustions in JavaScript.",
     "link": "/js-interview",
     "search": ["javascript"]
+  },
+  {
+    "id": 15,
+    "topic": "Commonly used jargons in JS",
+    "type": "js",
+    "desc": "Brief explanation of some of the commonly used jargons in JavaScript with examples.",
+    "link": "/js-jargons",
+    "search": ["javascript"]
   }
 ]
