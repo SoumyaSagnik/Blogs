@@ -27,3 +27,5 @@
 ### Closures in JS
 
 ### JS Interview Questions
+
+### Commonly used jargons in JS
