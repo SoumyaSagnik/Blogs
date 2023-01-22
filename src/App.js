@@ -21,6 +21,7 @@ import JSHoisting2 from "./Pages/JSHoisting2";
 import Errors from "./Pages/Errors";
 import BlockScopeAndShadowing from "./Pages/BlockScopeAndShadowing";
 import Closures from "./Pages/Closures";
+import JSInterview from "./Pages/JSInterview";
 
 const App = () => {
   const navigate = useNavigate();
@@ -162,6 +163,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <Closures />
+              </>
+            }
+          />
+          <Route
+            path="/js-interview"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <JSInterview />
               </>
             }
           />

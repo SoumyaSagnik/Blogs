@@ -102,5 +102,13 @@
     "desc": "Deep dive into closures in JavaScript.",
     "link": "/js-closures",
     "search": ["javascript"]
+  },
+  {
+    "id": 14,
+    "topic": "JS Interview Questions",
+    "type": "js",
+    "desc": "Output based interview qustions in JavaScript.",
+    "link": "/js-interview",
+    "search": ["javascript"]
   }
 ]
