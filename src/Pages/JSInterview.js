@@ -114,8 +114,8 @@ const JSInterview = () => {
           </div>
         </pre>
         <p className="space-bottom">
-          We are calling the function post the required time which results gives
-          us the desired output.
+          We are calling the function post the required time which gives us the
+          desired output.
         </p>
       </div>
     </motion.div>
