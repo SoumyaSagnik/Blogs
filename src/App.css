@@ -46,13 +46,12 @@ aside a:visited {
 }
 
 aside li {
-  margin-bottom: .35rem;
+  margin-bottom: .7rem;
   list-style: none;
   cursor: pointer;
 }
 
-aside li:hover,
-aside a:hover {
+aside li:hover {
   text-decoration: underline;
   color: #41f39a;
 }
@@ -76,7 +75,9 @@ aside ul {
 
 .content {
   width: 100%;
+  margin: auto;
   margin-top: 3rem;
+  margin-bottom: 7.5rem;
   padding: .5rem 1.5rem;
   font-size: 1.5rem;
   color: #A3A3A3;
@@ -85,8 +86,7 @@ aside ul {
   flex: 1 0 20%;
   column-gap: 1rem;
   row-gap: .3rem;
-  margin-bottom: 7.5rem;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .content.page {
@@ -218,21 +218,18 @@ aside ul {
 
 footer {
   position: absolute;
-  background-color: #292929;
+  background-color: #1f1d1d;
   width: 100%;
-  font-size: 1.5rem;
-  color: whitesmoke;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 5rem;
   bottom: 0;
 }
 
 footer a {
   text-decoration: none;
   color: inherit;
-  margin-top: 2rem;
+  margin-top: .3rem;
 }
 
 footer ul {
@@ -247,6 +244,24 @@ footer ul {
 footer li {
   display: flex;
   gap: .5rem;
+  align-items: center;
+}
+
+footer img#name {
+  width: 2.35rem;
+}
+
+footer img#github {
+  width: 1.7rem;
+}
+
+footer img#linkedin {
+  width: 1.6rem;
+}
+
+footer img#mail {
+  width: 2rem;
+  height: 1.35rem;
 }
 
 .code header {
@@ -352,24 +367,6 @@ footer li {
   }
 }
 
-@media (max-width: 960px) {
-  footer {
-    font-size: 1.25rem;
-  }
-}
-
-@media (max-width: 830px) {
-  footer ul {
-    gap: 1.5rem
-  }
-}
-
-@media (max-width: 775px) {
-  footer {
-    font-size: 1rem;
-  }
-}
-
 @media (max-width: 680px) {
   .code header {
     width: 87vw;
@@ -377,16 +374,6 @@ footer li {
 
   .code-body {
     width: 87vw;
-  }
-}
-
-@media (max-width: 650px) {
-  footer ul {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: .1rem;
-    font-size: 1.3rem;
   }
 }
 
@@ -410,7 +397,6 @@ footer li {
   .search {
     margin-right: 1.5vw;
   }
-
 }
 
 @media (max-width: 330px) {
@@ -427,16 +413,15 @@ footer li {
   .topic p {
     font-size: 1rem;
   }
+
+  footer ul {
+    gap: 1.5rem
+  }
 }
 
 @media (max-width: 300px) {
-
   .search {
     scale: .5;
-  }
-
-  footer ul {
-    font-size: 1rem;
   }
 }
 
