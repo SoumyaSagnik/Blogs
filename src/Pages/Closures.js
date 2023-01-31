@@ -80,7 +80,7 @@ const Closures = () => {
           </a>
           .
         </p>
-        <p className="space-all">Let's look a t a more complicated example.</p>
+        <p className="space-all">Let's look at another example.</p>
         <Code />
         <pre>
           <div className="code-body">
