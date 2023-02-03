@@ -23,6 +23,7 @@ import BlockScopeAndShadowing from "./Pages/BlockScopeAndShadowing";
 import Closures from "./Pages/Closures";
 import JSInterview from "./Pages/JSInterview";
 import Jargons from "./Pages/Jargons";
+import Callback from "./Pages/Callback";
 
 const App = () => {
   const navigate = useNavigate();
@@ -182,6 +183,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <Jargons />
+              </>
+            }
+          />
+          <Route
+            path="/js-callback"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <Callback />
               </>
             }
           />

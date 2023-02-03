@@ -118,5 +118,13 @@
     "desc": "Brief explanation of some of the commonly used jargons in JavaScript with examples.",
     "link": "/js-jargons",
     "search": ["javascript"]
+  },
+  {
+    "id": 16,
+    "topic": "Callback Functions in JS",
+    "type": "js",
+    "desc": "Brief Explanation of callback functions in JS.",
+    "link": "/js-callback",
+    "search": ["javascript"]
   }
 ]
