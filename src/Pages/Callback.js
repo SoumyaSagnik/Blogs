@@ -16,7 +16,7 @@ const Callback = () => {
         <p>
           Functions are{" "}
           <a
-            href="https://blogs-ssk.netlify.app/js-jargons#fcf"
+            href="https://blogs-ssk.netlify.app/js-jargons"
             target="_blank"
             rel="noreferrer"
           >

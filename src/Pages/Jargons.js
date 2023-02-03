@@ -312,7 +312,7 @@ const Jargons = () => {
             </p>
           </div>
         </pre>
-        <h3 id="fcf">First Class Functions</h3>
+        <h3>First Class Functions</h3>
         <p className="space-bottom">
           The ability to use functions as values in JavaScript is called first
           class functions. Functions can be passed down as arguments, can be
