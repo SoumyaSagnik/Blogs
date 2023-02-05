@@ -20,19 +20,19 @@ main {
 
 aside {
   margin-top: 3rem;
-  width: 10rem;
+  width: 13rem;
   color: #20B46A;
   background-color: #181818;
-  padding: 1rem 0 1rem 1rem;
+  padding: 1rem;
   line-height: 1.5rem;
+  max-height: 90%;
+  overflow-y: scroll;
 }
 
 aside h2 {
   font-size: 1.7rem;
   margin-top: 1.35rem;
-  text-align: center;
   margin-bottom: 1.75rem;
-  ;
 }
 
 aside a {
@@ -46,7 +46,7 @@ aside a:visited {
 }
 
 aside li {
-  margin-bottom: .7rem;
+  margin-bottom: 1.5rem;
   list-style: none;
   cursor: pointer;
 }
@@ -509,4 +509,22 @@ aside h2::selection {
 
 .content.page a::selection {
   color: rgb(186, 9, 139);
+}
+
+aside::-webkit-scrollbar {
+  width: .2rem;
+}
+
+aside::-webkit-scrollbar-track {
+  border-radius: 100vw;
+  margin-block: .1rem;
+}
+
+aside::-webkit-scrollbar-thumb {
+  background-color: #1f1d1d;
+  border-radius: 100vw;
+}
+
+aside::-webkit-scrollbar-thumb:hover {
+  background-color: #666060;
 }
