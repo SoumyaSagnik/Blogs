@@ -136,22 +136,21 @@ const Callback = () => {
         </p>
         <p>
           An <span className="green">important</span> point to be noted here is
-          that the Global Execution Context(GEC) is not deleted even if JS has
-          nothing left to do. The GEC remains in memory until the JavaScript
-          engine is shut down.
-        </p>
-        <p>
-          So in the absence of any other code to be executed, the GEC simply
-          waits in memory, ready to execute any code that is added to the call
+          that now the Global Execution Context will be removed from the call
           stack.
         </p>
         <p>
-          After 3 secs, an execution context is created for the anonymous
-          callback function of the set timeout and it is also inserted to the
-          call stack.
+          After 3 secs, the global execution context is created and inserted
+          back to the call stack, followed by creation of the execution context
+          of the callback function of setTimeout, which is also, you guessed it
+          right, inserted to the call stack.
         </p>
         <p>
-          the callback function is executed and its execution context is removed
+          At this point the call stack has two execution contexts: global and
+          one for the setTimeout.
+        </p>
+        <p>
+          The callback function is executed and its execution context is removed
           from the call stack.
         </p>
         <p>Finally, the GEC is removed from the call stack.</p>
