@@ -126,5 +126,13 @@
     "desc": "Brief Explanation of callback functions in JS. Importance of removing event listners.",
     "link": "/js-callback",
     "search": ["javascript"]
+  },
+  {
+    "id": 17,
+    "topic": "Event Loop in JS",
+    "type": "js",
+    "desc": "In depth explanation of event loop in JavaScript, along with internal working of setTimeout, eventListener and fetch.",
+    "link": "/js-eventLoop",
+    "search": ["javascript"]
   }
 ]

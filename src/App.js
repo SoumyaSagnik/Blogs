@@ -24,6 +24,7 @@ import Closures from "./Pages/Closures";
 import JSInterview from "./Pages/JSInterview";
 import Jargons from "./Pages/Jargons";
 import Callback from "./Pages/Callback";
+import EventLoop from "./Pages/EventLoop";
 
 const App = () => {
   const navigate = useNavigate();
@@ -192,6 +193,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <Callback />
+              </>
+            }
+          />
+          <Route
+            path="/js-eventLoop"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <EventLoop />
               </>
             }
           />
