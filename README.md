@@ -31,3 +31,5 @@
 ### Commonly used jargons in JS
 
 ### Callback Functions in JS
+
+### Event Loop in JS
