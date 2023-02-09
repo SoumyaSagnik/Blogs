@@ -134,5 +134,13 @@
     "desc": "In depth explanation of event loop in JavaScript, along with internal working of setTimeout, eventListener and fetch.",
     "link": "/js-eventLoop",
     "search": ["javascript"]
+  },
+  {
+    "id": 18,
+    "topic": "Optional Chaining in JS",
+    "type": "js",
+    "desc": "Brief overview of optional chaining in JavaScript.",
+    "link": "/js-optionalChaining",
+    "search": ["javascript"]
   }
 ]

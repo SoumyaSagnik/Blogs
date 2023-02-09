@@ -25,6 +25,7 @@ import JSInterview from "./Pages/JSInterview";
 import Jargons from "./Pages/Jargons";
 import Callback from "./Pages/Callback";
 import EventLoop from "./Pages/EventLoop";
+import OptionalChaining from "./Pages/OptionalChaining";
 
 const App = () => {
   const navigate = useNavigate();
@@ -202,6 +203,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <EventLoop />
+              </>
+            }
+          />
+          <Route
+            path="/js-optionalChaining"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <OptionalChaining />
               </>
             }
           />
