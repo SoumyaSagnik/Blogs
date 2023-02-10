@@ -1,5 +1,7 @@
 # Blogs
 
+## Topics
+
 ### JS Array Functions
 
 ### CSS Specificity
@@ -33,3 +35,7 @@
 ### Callback Functions in JS
 
 ### Event Loop in JS
+
+### Optioinal Chaining in JS
+
+### Nullish Coalescing Operator in JS
