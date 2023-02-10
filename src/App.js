@@ -26,6 +26,7 @@ import Jargons from "./Pages/Jargons";
 import Callback from "./Pages/Callback";
 import EventLoop from "./Pages/EventLoop";
 import OptionalChaining from "./Pages/OptionalChaining";
+import Nullish from "./Pages/Nullish";
 
 const App = () => {
   const navigate = useNavigate();
@@ -212,6 +213,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <OptionalChaining />
+              </>
+            }
+          />
+          <Route
+            path="/js-nullish"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <Nullish />
               </>
             }
           />

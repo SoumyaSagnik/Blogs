@@ -142,5 +142,13 @@
     "desc": "Brief overview of optional chaining in JavaScript.",
     "link": "/js-optionalChaining",
     "search": ["javascript"]
+  },
+  {
+    "id": 19,
+    "topic": "Nullish Coalescing in JS",
+    "type": "js",
+    "desc": "Brief overview of the nullish coalescing operator (??) in JavaScript.",
+    "link": "/js-nullish",
+    "search": ["javascript"]
   }
 ]

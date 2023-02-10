@@ -316,6 +316,10 @@ footer img#mail {
   color: goldenrod;
 }
 
+.blue {
+  color: rgb(19, 107, 170);
+}
+
 .bold {
   font-weight: bold;
 }
@@ -489,6 +493,10 @@ footer img#mail {
 
 .red::selection {
   color: red;
+}
+
+.blue::selection {
+  color: rgb(13, 161, 235);
 }
 
 aside a::selection {
