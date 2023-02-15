@@ -2,8 +2,6 @@
 
 ## Homepage
 
-<br>
-
 <p align="center">
     <img src="./public/images/ss1.png">
 </p>
