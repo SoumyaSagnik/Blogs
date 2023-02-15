@@ -1,41 +1,79 @@
 # Blogs
 
+## Homepage
+
+<br>
+
+<p align="center">
+    <img src="./public/images/ss1.png">
+</p>
+
+<br>
+
+## Article View
+
+<p align="center">
+    <img src="./public/images/ss2.png">
+</p>
+
+<br>
+
+## Search Functionality Enabled
+
+<p align="center">
+    <img src="./public/images/ss3.png">
+</p>
+
+<br>
+<p>
+    Read now at
+    <a href="https://blogs-ssk.netlify.app/">blogs</a>
+</p>
+
 ## Topics
 
-### JS Array Functions
+#### JS Array Functions
 
-### CSS Specificity
+#### CSS Specificity
 
-### Git
+#### Git
 
-### Hoisting in JS with var
+#### Hoisting in JS with var
 
-### Internal Working of JS Functions
+#### Internal Working of JS Functions
 
-### window and this keyword in JS
+#### window and this keyword in JS
 
-### undefined vs not defined in JS
+#### undefined vs not defined in JS
 
-### JS is a loosely typed language
+#### JS is a loosely typed language
 
-### Scope and Lexical Environment in JS
+#### Scope and Lexical Environment in JS
 
-### Hoisting in JS with let and const
+#### Hoisting in JS with let and const
 
-### Types of Errors in JS
+#### Types of Errors in JS
 
-### Block Scope & Shadowing in JS
+#### Block Scope & Shadowing in JS
 
-### Closures in JS
+#### Closures in JS
 
-### JS Interview Questions
+#### JS Interview Questions
 
-### Commonly used jargons in JS
+#### Commonly used jargons in JS
 
-### Callback Functions in JS
+#### Callback Functions in JS
 
-### Event Loop in JS
+#### Event Loop in JS
 
-### Optioinal Chaining in JS
+#### Optioinal Chaining in JS
 
-### Nullish Coalescing Operator in JS
+#### Nullish Coalescing Operator in JS
+
+<br>
+
+## Additional Specs
+
+<p>
+    The website uses react router for navigation and framer motion for smooth transitions.
+</p>
