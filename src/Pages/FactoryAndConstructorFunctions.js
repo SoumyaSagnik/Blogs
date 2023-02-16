@@ -16,7 +16,7 @@ const FactoryAndConstructorFunctions = () => {
         <h3>Factory function</h3>
         <p>
           In factory functions, we don't use the{" "}
-          <span className="green">new</span>keyword to create an object.
+          <span className="green">new </span>keyword to create an object.
         </p>
         <p className="white">
           Factory functions simply create an object and return it.
@@ -73,10 +73,9 @@ const FactoryAndConstructorFunctions = () => {
           </div>
         </pre>
         <p className="space-bottom">
-          Factory functions come in handy when we have to create multiple
-          objects again and again that have the same logic. We can write the
-          logic once in a function and use that function as a factory to create
-          objects.
+          Factory functions come handy when we have to create multiple objects
+          again and again that have the same logic. We can write the logic once
+          in a function and use that function as a factory to create objects.
         </p>
         <h3>Constructor function</h3>
         <p>
