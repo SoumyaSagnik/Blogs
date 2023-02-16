@@ -150,5 +150,13 @@
     "desc": "Brief overview of the nullish coalescing operator (??) in JavaScript.",
     "link": "/js-nullish",
     "search": ["javascript"]
+  },
+  {
+    "id": 20,
+    "topic": "Factory & Constructor function in JS",
+    "type": "js",
+    "desc": "Brief overview of factory function and constructor function in JavaScript.",
+    "link": "/js-factory-constructor",
+    "search": ["javascript"]
   }
 ]

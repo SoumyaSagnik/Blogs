@@ -27,6 +27,7 @@ import Callback from "./Pages/Callback";
 import EventLoop from "./Pages/EventLoop";
 import OptionalChaining from "./Pages/OptionalChaining";
 import Nullish from "./Pages/Nullish";
+import FactoryAndConstructorFunctions from "./Pages/FactoryAndConstructorFunctions";
 
 const App = () => {
   const navigate = useNavigate();
@@ -222,6 +223,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <Nullish />
+              </>
+            }
+          />
+          <Route
+            path="/js-factory-constructor"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <FactoryAndConstructorFunctions />
               </>
             }
           />
