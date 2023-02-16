@@ -1,5 +1,7 @@
 # Blogs
 
+<p>Website is built using React. React router is used for navigation, and framer motion for smooth page transitions.</p>
+
 ## Homepage
 
 <p align="center">
@@ -68,10 +70,4 @@
 
 #### Nullish Coalescing Operator in JS
 
-<br>
-
-## Additional Specs
-
-<p>
-    The website uses react router for navigation and framer motion for smooth transitions.
-</p>
+#### Factory and Constructor function in JS
