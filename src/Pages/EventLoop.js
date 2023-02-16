@@ -210,8 +210,8 @@ const EventLoop = () => {
           the callback queue as soon as it's timer is finished.
         </p>
         <p>
-          Meanwhile, the event loop is constantly check the call stack, callback
-          and microtask queue.
+          Meanwhile, the event loop is constantly checking the call stack,
+          callback and microtask queue.
         </p>
         <p>It finds the callback function inside the callback queue.</p>
         <p>
