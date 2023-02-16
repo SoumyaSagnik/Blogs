@@ -109,7 +109,7 @@
     "type": "js",
     "desc": "Output based interview qustions in JavaScript.",
     "link": "/js-interview",
-    "search": ["javascript"]
+    "search": ["javascript, interview, questions"]
   },
   {
     "id": 15,
@@ -157,6 +157,14 @@
     "type": "js",
     "desc": "Brief overview of factory function and constructor function in JavaScript.",
     "link": "/js-factory-constructor",
+    "search": ["javascript"]
+  },
+  {
+    "id": 21,
+    "topic": "Constructor property in JS",
+    "type": "js",
+    "desc": "Deep dive into the constructor property in JavaScript.",
+    "link": "/js-constructorProperty",
     "search": ["javascript"]
   }
 ]

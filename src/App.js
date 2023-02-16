@@ -28,6 +28,7 @@ import EventLoop from "./Pages/EventLoop";
 import OptionalChaining from "./Pages/OptionalChaining";
 import Nullish from "./Pages/Nullish";
 import FactoryAndConstructorFunctions from "./Pages/FactoryAndConstructorFunctions";
+import ConstructorProperty from "./Pages/ConstructorProperty";
 
 const App = () => {
   const navigate = useNavigate();
@@ -35,14 +36,12 @@ const App = () => {
   let validItems;
   const [items, setItems] = useState(notes);
   const srch = (ref) => {
-    const searchValue = ref.current.value
-      .toLowerCase()
-      .trim()
-      .replace(/\s+/g, "");
+    const searchValue = ref.current.value.toLowerCase().trim();
     validItems = notes.filter(
       (data) =>
-        data.topic.toLowerCase().trim().includes(searchValue) ||
-        searchValue.includes(data.type) ||
+        (data.topic.toLowerCase().trim().includes(searchValue) &&
+          data.topic.toLowerCase().trim().substring(0, searchValue.length) ===
+            searchValue) ||
         data.search.some((val) => val.includes(searchValue))
     );
     setItems(validItems);
@@ -232,6 +231,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <FactoryAndConstructorFunctions />
+              </>
+            }
+          />
+          <Route
+            path="/js-constructorProperty"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <ConstructorProperty />
               </>
             }
           />
