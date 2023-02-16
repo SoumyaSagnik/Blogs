@@ -71,3 +71,5 @@
 #### Nullish Coalescing Operator in JS
 
 #### Factory and Constructor function in JS
+
+#### Constructor property in JS
