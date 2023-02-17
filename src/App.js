@@ -29,6 +29,7 @@ import OptionalChaining from "./Pages/OptionalChaining";
 import Nullish from "./Pages/Nullish";
 import FactoryAndConstructorFunctions from "./Pages/FactoryAndConstructorFunctions";
 import ConstructorProperty from "./Pages/ConstructorProperty";
+import PrimitiveVsReference from "./Pages/PrimitiveVsReference";
 
 const App = () => {
   const navigate = useNavigate();
@@ -240,6 +241,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <ConstructorProperty />
+              </>
+            }
+          />
+          <Route
+            path="/js-primitiveVsReference"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <PrimitiveVsReference />
               </>
             }
           />

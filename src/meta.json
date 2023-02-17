@@ -166,5 +166,13 @@
     "desc": "Deep dive into the constructor property in JavaScript.",
     "link": "/js-constructorProperty",
     "search": ["javascript"]
+  },
+  {
+    "id": 22,
+    "topic": "Primitive vs Reference type in JS",
+    "type": "js",
+    "desc": "Brief description of how primitives differ from reference types in JavaScript.",
+    "link": "/js-primitiveVsReference",
+    "search": ["javascript"]
   }
 ]

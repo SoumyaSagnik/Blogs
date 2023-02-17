@@ -70,3 +70,5 @@
 #### Factory and Constructor function in JS
 
 #### Constructor property in JS
+
+#### Primitive vs Reference type in JS
