@@ -174,5 +174,13 @@
     "desc": "Brief description of how primitives differ from reference types in JavaScript.",
     "link": "/js-primitiveVsReference",
     "search": ["javascript"]
+  },
+  {
+    "id": 23,
+    "topic": "for-in & for-of loop in JS",
+    "type": "js",
+    "desc": "Iterating through objects using for-in & iterables using for-of loop in JavaScript.",
+    "link": "/js-forIn&forOf",
+    "search": ["javascript"]
   }
 ]

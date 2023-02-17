@@ -30,6 +30,7 @@ import Nullish from "./Pages/Nullish";
 import FactoryAndConstructorFunctions from "./Pages/FactoryAndConstructorFunctions";
 import ConstructorProperty from "./Pages/ConstructorProperty";
 import PrimitiveVsReference from "./Pages/PrimitiveVsReference";
+import ForInAndForOfLoop from "./Pages/ForInAndForOfLoop";
 
 const App = () => {
   const navigate = useNavigate();
@@ -250,6 +251,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <PrimitiveVsReference />
+              </>
+            }
+          />
+          <Route
+            path="/js-forIn&forOf"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <ForInAndForOfLoop />
               </>
             }
           />
