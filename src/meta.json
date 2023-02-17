@@ -182,5 +182,13 @@
     "desc": "Iterating through objects using for-in & iterables using for-of loop in JavaScript.",
     "link": "/js-forIn&forOf",
     "search": ["javascript"]
+  },
+  {
+    "id": 24,
+    "topic": "Object cloning in JS",
+    "type": "js",
+    "desc": "Different ways of cloning an object in JavaScript.",
+    "link": "/js-objectCloning",
+    "search": ["javascript"]
   }
 ]

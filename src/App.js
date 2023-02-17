@@ -31,6 +31,7 @@ import FactoryAndConstructorFunctions from "./Pages/FactoryAndConstructorFunctio
 import ConstructorProperty from "./Pages/ConstructorProperty";
 import PrimitiveVsReference from "./Pages/PrimitiveVsReference";
 import ForInAndForOfLoop from "./Pages/ForInAndForOfLoop";
+import ObjectCloning from "./Pages/ObjectCloning";
 
 const App = () => {
   const navigate = useNavigate();
@@ -260,6 +261,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <ForInAndForOfLoop />
+              </>
+            }
+          />
+          <Route
+            path="/js-objectCloning"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <ObjectCloning />
               </>
             }
           />
