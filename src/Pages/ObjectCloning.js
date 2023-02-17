@@ -124,31 +124,6 @@ const ObjectCloning = () => {
             </p>
           </div>
         </pre>
-        <h3>Using Object.create()</h3>
-        <p className="space-bottom"></p>
-        <Code />
-        <pre>
-          <div className="code-body">
-            <p>
-              <span className="yellow">const </span>obj1
-              <span className="grn"> = </span>
-              {leftCurly} a: 1, b: 2 {rightCurly};
-            </p>
-            <p>
-              <span className="yellow">const </span>obj2
-              <span className="grn"> = </span>
-              <span className="blue">Object</span>.
-              <span className="yellow">create</span>
-              <span className="pink">(</span>
-              obj1
-              <span className="pink">)</span>;
-            </p>
-            <p className="space-top em white">
-              Note: obj2 in this case will remain empty. However, obj2.a will
-              point to obj1.a, and so on..
-            </p>
-          </div>
-        </pre>
         <h3>Using Constructor Function</h3>
         <p className="sapce-bottom"></p>
         <Code />
@@ -181,6 +156,35 @@ const ObjectCloning = () => {
               <span className="pink">(</span>
               obj1
               <span className="pink">)</span>;
+            </p>
+          </div>
+        </pre>
+        <p className="space-bottom"></p>
+        <p className="space-bottom">
+          There's a way of pointing to the original object's properties when the
+          object pointing to the original one is itself empty. This can be
+          achieved through <span className="green">Object.create()</span>.
+        </p>
+        <Code />
+        <pre>
+          <div className="code-body">
+            <p>
+              <span className="yellow">const </span>obj1
+              <span className="grn"> = </span>
+              {leftCurly} a: 1, b: 2 {rightCurly};
+            </p>
+            <p>
+              <span className="yellow">const </span>obj2
+              <span className="grn"> = </span>
+              <span className="blue">Object</span>.
+              <span className="yellow">create</span>
+              <span className="pink">(</span>
+              obj1
+              <span className="pink">)</span>;
+            </p>
+            <p className="space-top em white">
+              Note: obj2 in this case will remain empty. However, obj2.a will
+              point to obj1.a, and so on..
             </p>
           </div>
         </pre>
