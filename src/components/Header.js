@@ -13,6 +13,7 @@ const Header = ({ searchValue }) => {
       <div className="search">
         <input
           type="search"
+          spellCheck={false}
           ref={inputRef}
           onChange={() => searchValue(inputRef)}
           placeholder="Search"
