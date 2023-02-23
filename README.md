@@ -76,3 +76,5 @@
 #### For-in & for-of loop in JS
 
 #### Object Cloning in JS
+
+#### Debounce & Throttle in JS
