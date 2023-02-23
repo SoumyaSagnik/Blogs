@@ -32,6 +32,7 @@ import ConstructorProperty from "./Pages/ConstructorProperty";
 import PrimitiveVsReference from "./Pages/PrimitiveVsReference";
 import ForInAndForOfLoop from "./Pages/ForInAndForOfLoop";
 import ObjectCloning from "./Pages/ObjectCloning";
+import DebounceAndThrottle from "./Pages/DebounceAndThrottle";
 
 const App = () => {
   const navigate = useNavigate();
@@ -270,6 +271,15 @@ const App = () => {
               <>
                 <Sidebar data={notes} />
                 <ObjectCloning />
+              </>
+            }
+          />
+          <Route
+            path="/js-debounce&Throttle"
+            element={
+              <>
+                <Sidebar data={notes} />
+                <DebounceAndThrottle />
               </>
             }
           />
