@@ -1,7 +1,7 @@
 # Blogs
 
 <p>Website is built using React. React router is used for navigation, and framer motion for smooth page transitions. Read now at
-    <a href="https://blogs-ssk.netlify.app/">blogs</a></p>
+    <a href="https://blogs-ssk.netlify.app/">https://blogs-ssk.netlify.app/</a></p>
 
 ## Homepage
 
