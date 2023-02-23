@@ -16,6 +16,7 @@ main {
   display: flex;
   position: relative;
   min-height: 100vh;
+  justify-content: center;
 }
 
 aside {
@@ -27,7 +28,7 @@ aside {
   line-height: 1.5rem;
   max-height: 90%;
   overflow-y: scroll;
-  margin-left: 15vw;
+  /* margin-left: 15vw; */
 }
 
 aside h2 {
@@ -76,7 +77,7 @@ aside ul {
 }
 
 .content {
-  width: 100%;
+  width: 65rem;
   margin: auto;
   margin-top: 3rem;
   margin-bottom: 7.5rem;
@@ -88,7 +89,7 @@ aside ul {
   flex: 1 0 20%;
   column-gap: 1rem;
   row-gap: .3rem;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .content.page {
@@ -366,10 +367,6 @@ footer img#mail {
 }
 
 @media (max-width: 1450px) {
-  aside {
-    margin-left: 5vw;
-  }
-
   .content.page {
     width: 65vw;
   }
@@ -381,7 +378,7 @@ footer img#mail {
   }
 
   .content {
-    justify-content: center;
+    width: 100%;
   }
 
   .content.page {
@@ -421,6 +418,16 @@ footer img#mail {
   }
 }
 
+@media (max-width: 350px) {
+  .topic {
+    scale: .9;
+  }
+
+  .topic:hover {
+    scale: .95;
+  }
+}
+
 @media (max-width: 330px) {
 
   .search,
@@ -439,11 +446,27 @@ footer img#mail {
   footer ul {
     gap: 1.5rem
   }
+
+  .topic {
+    scale: .8;
+  }
+
+  .topic:hover {
+    scale: .85;
+  }
 }
 
 @media (max-width: 300px) {
   .search {
     scale: .5;
+  }
+
+  .topic {
+    scale: .7;
+  }
+
+  .topic:hover {
+    scale: .75;
   }
 }
 
