@@ -27,6 +27,7 @@ aside {
   line-height: 1.5rem;
   max-height: 90%;
   overflow-y: scroll;
+  margin-left: 15vw;
 }
 
 aside h2 {
@@ -71,6 +72,7 @@ aside ul {
   justify-content: space-between;
   background-color: #212121;
   z-index: 1;
+  box-shadow: 0 0 .3rem rgba(0, 0, 0, .7);
 }
 
 .content {
@@ -92,6 +94,7 @@ aside ul {
 .content.page {
   flex-wrap: nowrap;
   flex-direction: column;
+  width: 55vw;
 }
 
 .content.page h1 {
@@ -224,6 +227,7 @@ footer {
   align-items: center;
   justify-content: center;
   bottom: 0;
+  box-shadow: 0 0 .3rem rgba(0, 0, 0, .7);
 }
 
 footer a {
@@ -361,6 +365,16 @@ footer img#mail {
   margin-left: 6rem;
 }
 
+@media (max-width: 1450px) {
+  aside {
+    margin-left: 5vw;
+  }
+
+  .content.page {
+    width: 65vw;
+  }
+}
+
 @media (max-width: 1115px) {
   aside {
     display: none;
@@ -368,6 +382,10 @@ footer img#mail {
 
   .content {
     justify-content: center;
+  }
+
+  .content.page {
+    width: 97.5vw;
   }
 }
 
