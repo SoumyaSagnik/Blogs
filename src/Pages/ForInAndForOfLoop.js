@@ -63,7 +63,7 @@ const ForInAndForOfLoop = () => {
         </pre>
         <p className="space-bottom">
           In case you need to print all the keys of a nested object in separate
-          lines, I've got you covered provideed you know the name of the nested
+          lines, I've got you covered, provided you know the name of the nested
           object.
         </p>
         <Code />
