@@ -173,7 +173,7 @@ const Jargons = () => {
         <p className="space-bottom">
           An IIFE is a function that runs as soon as it is defined. The function
           defined inside an IIFE can be an anonymous function or a named
-          function. The advantage of using an IIFE is that it creates an new
+          function. The advantage of using an IIFE is that it creates a new
           scope and it allows the variables defined inside the IIFE to be
           private and not accessible outside the scope. It is also useful in
           situations where you want to run a block of code only once.
