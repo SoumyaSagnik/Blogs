@@ -218,7 +218,7 @@ const BlockScopeAndShadowing = () => {
           </div>
         </pre>
         <p>
-          The variables a,b and c inside the block are{" "}
+          The variables a, b and c inside the block are{" "}
           <span className="green">shadowing</span> their counter parts having
           the same name outside the block.
         </p>
