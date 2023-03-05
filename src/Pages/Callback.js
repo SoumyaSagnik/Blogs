@@ -127,8 +127,8 @@ const Callback = () => {
           the call stack, followed by its execution.
         </p>
         <p>
-          functions b's execution context is removed from the call stack fowwed
-          by the removal of function a's execution context.
+          functions b's execution context is removed from the call stack
+          followed by the removal of function a's execution context.
         </p>
         <p>
           JavaScript is very fast, till now 3 secs have not passed, so JS is
