@@ -179,8 +179,8 @@ const EventLoop = () => {
         </p>
         <p>
           <span className="white">Time tide and JavaScript waits for none</span>
-          . JS moves to the next line and again prints End to the console with
-          the help of console web api.
+          . JS moves to the next line and prints End to the console with the
+          help of console web api.
         </p>
         <p>
           JS is very fast and 1s has not passed yet. The call stack is empty and
