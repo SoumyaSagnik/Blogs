@@ -469,7 +469,7 @@ const EventLoop = () => {
         </pre>
         <p>setTimeout will be executed as explained in the previous example.</p>
         <p>
-          Similar to setTimeout, fetch will also register it's callback function
+          Similar to setTimeout, fetch will also register its callback function
           to the web api's environment.
         </p>
         <p>
