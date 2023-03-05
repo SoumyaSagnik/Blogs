@@ -122,8 +122,8 @@ const EventLoop = () => {
           </div>
         </pre>
         <p>
-          We can ommit the window. before using these Web APIs as its present in
-          the global scope.
+          We can ommit <span className="white">`window`</span> before using
+          these Web APIs as its present in the global scope.
         </p>
         <h3>Internal Working of setTimeout</h3>
         <p className="space-bottom">Let's look an example.</p>
