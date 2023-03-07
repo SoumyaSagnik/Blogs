@@ -1,38 +1,46 @@
 import "./App.css";
-import { useState } from "react";
+import "./Loader.css";
+import { useState, lazy, Suspense } from "react";
 import { useNavigate, useLocation, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
+import Loader from "./components/Loader";
 import notes from "./meta.json";
 import { AnimatePresence } from "framer-motion";
 
-import CSSSpecificity from "./Pages/CSSSpecificity";
-import JSArrayFunctions from "./Pages/JSArrayFunctions";
-import Git from "./Pages/Git";
-import JSHoisting from "./Pages/JSHoisting";
-import IWJSFunctions from "./Pages/IWJSFunctions";
-import WindowAndThis from "./Pages/WindowAndThis";
-import UndefinedVsNotDefined from "./Pages/UndefinedVsNotDefined";
-import JSLooselyTyped from "./Pages/JSLooselyTyped";
-import ScopeAndLE from "./Pages/ScopeAndLE";
-import JSHoisting2 from "./Pages/JSHoisting2";
-import Errors from "./Pages/Errors";
-import BlockScopeAndShadowing from "./Pages/BlockScopeAndShadowing";
-import Closures from "./Pages/Closures";
-import JSInterview from "./Pages/JSInterview";
-import Jargons from "./Pages/Jargons";
-import Callback from "./Pages/Callback";
-import EventLoop from "./Pages/EventLoop";
-import OptionalChaining from "./Pages/OptionalChaining";
-import Nullish from "./Pages/Nullish";
-import FactoryAndConstructorFunctions from "./Pages/FactoryAndConstructorFunctions";
-import ConstructorProperty from "./Pages/ConstructorProperty";
-import PrimitiveVsReference from "./Pages/PrimitiveVsReference";
-import ForInAndForOfLoop from "./Pages/ForInAndForOfLoop";
-import ObjectCloning from "./Pages/ObjectCloning";
-import DebounceAndThrottle from "./Pages/DebounceAndThrottle";
+const CSSSpecificity = lazy(() => import("./Pages/CSSSpecificity"));
+const JSArrayFunctions = lazy(() => import("./Pages/JSArrayFunctions"));
+const Git = lazy(() => import("./Pages/Git"));
+const JSHoisting = lazy(() => import("./Pages/JSHoisting"));
+const IWJSFunctions = lazy(() => import("./Pages/IWJSFunctions"));
+const WindowAndThis = lazy(() => import("./Pages/WindowAndThis"));
+const UndefinedVsNotDefined = lazy(() =>
+  import("./Pages/UndefinedVsNotDefined")
+);
+const JSLooselyTyped = lazy(() => import("./Pages/JSLooselyTyped"));
+const ScopeAndLE = lazy(() => import("./Pages/ScopeAndLE"));
+const JSHoisting2 = lazy(() => import("./Pages/JSHoisting2"));
+const Errors = lazy(() => import("./Pages/Errors"));
+const BlockScopeAndShadowing = lazy(() =>
+  import("./Pages/BlockScopeAndShadowing")
+);
+const Closures = lazy(() => import("./Pages/Closures"));
+const JSInterview = lazy(() => import("./Pages/JSInterview"));
+const Jargons = lazy(() => import("./Pages/Jargons"));
+const Callback = lazy(() => import("./Pages/Callback"));
+const EventLoop = lazy(() => import("./Pages/EventLoop"));
+const OptionalChaining = lazy(() => import("./Pages/OptionalChaining"));
+const Nullish = lazy(() => import("./Pages/Nullish"));
+const FactoryAndConstructorFunctions = lazy(() =>
+  import("./Pages/FactoryAndConstructorFunctions")
+);
+const ConstructorProperty = lazy(() => import("./Pages/ConstructorProperty"));
+const PrimitiveVsReference = lazy(() => import("./Pages/PrimitiveVsReference"));
+const ForInAndForOfLoop = lazy(() => import("./Pages/ForInAndForOfLoop"));
+const ObjectCloning = lazy(() => import("./Pages/ObjectCloning"));
+const DebounceAndThrottle = lazy(() => import("./Pages/DebounceAndThrottle"));
 
 const App = () => {
   const navigate = useNavigate();
@@ -61,226 +69,226 @@ const App = () => {
           <Route
             path="/css-specificity"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <CSSSpecificity />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-array-functions"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <JSArrayFunctions />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/git"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <Git />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-hoisting"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <JSHoisting />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-iw-functions"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <IWJSFunctions />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-windowAndthis"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <WindowAndThis />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-undefinedVsNotDefined"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <UndefinedVsNotDefined />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-loosely-typed"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <JSLooselyTyped />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-scope&le"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <ScopeAndLE />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-hoisting-let&const"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <JSHoisting2 />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-errors"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <Errors />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-block&shadowing"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <BlockScopeAndShadowing />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-closures"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <Closures />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-interview"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <JSInterview />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-jargons"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <Jargons />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-callback"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <Callback />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-eventLoop"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <EventLoop />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-optionalChaining"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <OptionalChaining />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-nullish"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <Nullish />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-factory-constructor"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <FactoryAndConstructorFunctions />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-constructorProperty"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <ConstructorProperty />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-primitiveVsReference"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <PrimitiveVsReference />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-forIn&forOf"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <ForInAndForOfLoop />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-objectCloning"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <ObjectCloning />
-              </>
+              </Suspense>
             }
           />
           <Route
             path="/js-debounce&Throttle"
             element={
-              <>
+              <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <DebounceAndThrottle />
-              </>
+              </Suspense>
             }
           />
         </Routes>
