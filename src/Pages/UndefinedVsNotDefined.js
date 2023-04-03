@@ -25,7 +25,7 @@ const UndefinedVsNotDefined = () => {
           <span className="white">:D</span>.
         </p>
         <p className="space-all">
-          JavaScript assignes the value <span className="green">undefined</span>{" "}
+          JavaScript assigns the value <span className="green">undefined</span>{" "}
           to <span className="green">variables</span> during the{" "}
           <span className="green">memory creation</span> phase of an{" "}
           <a
