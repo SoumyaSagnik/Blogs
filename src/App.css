@@ -292,6 +292,10 @@ footer img#mail {
   text-decoration: underline;
 }
 
+.codeSnippet {
+  font-size: 1.2rem;
+}
+
 .blanchedalmond {
   color: blanchedalmond;
 }
@@ -576,4 +580,22 @@ aside::-webkit-scrollbar-thumb {
 
 aside::-webkit-scrollbar-thumb:hover {
   background-color: #666060;
+}
+
+.codeSnippet::-webkit-scrollbar {
+  height: .5rem
+}
+
+.codeSnippet::-webkit-scrollbar-track {
+  border-radius: 100vw;
+  margin-block: .1rem;
+}
+
+.codeSnippet::-webkit-scrollbar-thumb {
+  background-color: hsl(231, 15%, 30%);
+  border-radius: 100vw;
+}
+
+.codeSnippet::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(231, 15%, 45%);
 }

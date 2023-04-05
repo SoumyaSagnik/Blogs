@@ -198,5 +198,13 @@
     "desc": "Debounce and throttle in JavaScript along with implementation.",
     "link": "/js-debounce&Throttle",
     "search": ["javascript, throttle"]
+  },
+  {
+    "id": 26,
+    "topic": "Mimicking lifecycle methods with hooks",
+    "type": "react",
+    "desc": "Using the useEffect hook to mimic componentDidMount, componenetDidUpdate, and componentWillUpdate.",
+    "link": "/react-MimicLifecycle",
+    "search": ["useEffect, lifecycle, hooks"]
   }
 ]

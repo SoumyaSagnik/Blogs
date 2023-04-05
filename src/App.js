@@ -41,6 +41,9 @@ const PrimitiveVsReference = lazy(() => import("./Pages/PrimitiveVsReference"));
 const ForInAndForOfLoop = lazy(() => import("./Pages/ForInAndForOfLoop"));
 const ObjectCloning = lazy(() => import("./Pages/ObjectCloning"));
 const DebounceAndThrottle = lazy(() => import("./Pages/DebounceAndThrottle"));
+const MimicLifecycleUseEffect = lazy(() =>
+  import("./Pages/MimicLifecycleUseEffect")
+);
 
 const App = () => {
   const navigate = useNavigate();
@@ -288,6 +291,15 @@ const App = () => {
               <Suspense fallback={<Loader />}>
                 <Sidebar data={notes} />
                 <DebounceAndThrottle />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/react-MimicLifecycle"
+            element={
+              <Suspense fallback={<Loader />}>
+                <Sidebar data={notes} />
+                <MimicLifecycleUseEffect />
               </Suspense>
             }
           />
