@@ -205,6 +205,6 @@
     "type": "react",
     "desc": "Using the useEffect hook to mimic componentDidMount, componenetDidUpdate, and componentWillUpdate.",
     "link": "/react-MimicLifecycle",
-    "search": ["useEffect, lifecycle, hooks"]
+    "search": ["useEffect, lifecycle, hooks, react"]
   }
 ]
