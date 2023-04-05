@@ -29,52 +29,54 @@
 
 ## Topics
 
-#### JS Array Functions
+<a href="https://blogs-ssk.netlify.app/js-array-functions">Array functions in JavaScript</a>
 
-#### CSS Specificity
+<a href="https://blogs-ssk.netlify.app/css-specificity">Specificity in CSS</a>
 
-#### Git
+<a href="https://blogs-ssk.netlify.app/git">Overview of Git</a>
 
-#### Hoisting in JS with var
+<a href="https://blogs-ssk.netlify.app/js-hoisting">Hoisting in JS with var</a>
 
-#### Internal Working of JS Functions
+<a href="https://blogs-ssk.netlify.app/js-hoisting-let&const">Hoisting in JS with let and const</a>
 
-#### window and this keyword in JS
+<a href="https://blogs-ssk.netlify.app/js-iw-functions">How JS functions work internally</a>
 
-#### undefined vs not defined in JS
+<a href="https://blogs-ssk.netlify.app/js-windowAndthis">Window and this keyword in JavaScript</a>
 
-#### JS is a loosely typed language
+<a href="https://blogs-ssk.netlify.app/js-undefinedVsNotDefined">Undefined vs not defined in JavaScript</a>
 
-#### Scope and Lexical Environment in JS
+<a href="https://blogs-ssk.netlify.app/js-loosely-typed">JavaScript is a loosely typed language</a>
 
-#### Hoisting in JS with let and const
+<a href="https://blogs-ssk.netlify.app/js-scope&le">Scope and Lexical Environment in JavaScript</a>
 
-#### Types of Errors in JS
+<a href="https://blogs-ssk.netlify.app/js-errors">Types of error in JavaScript</a>
 
-#### Block Scope & Shadowing in JS
+<a href="https://blogs-ssk.netlify.app/js-block&shadowing">Block Scope and Shadowing in JavaScript</a>
 
-#### Closures in JS
+<a href="https://blogs-ssk.netlify.app/js-closures">Closures in JavaScript</a>
 
-#### JS Interview Questions
+<a href="https://blogs-ssk.netlify.app/js-interview">Some JS interview questions</a>
 
-#### Commonly used jargons in JS
+<a href="https://blogs-ssk.netlify.app/js-jargons">Commonly used jargons in JavaScript</a>
 
-#### Callback Functions in JS
+<a href="https://blogs-ssk.netlify.app/js-callback">Callbacks in JavaScript</a>
 
-#### Event Loop in JS
+<a href="https://blogs-ssk.netlify.app/js-eventLoop">Event loop in JavaScript</a>
 
-#### Optioinal Chaining in JS
+<a href="https://blogs-ssk.netlify.app/js-optionalChaining">Optional Chaining in JavaScript</a>
 
-#### Nullish Coalescing Operator in JS
+<a href="https://blogs-ssk.netlify.app/js-nullish">Nullish Coalescing Operator in JavaScript</a>
 
-#### Factory and Constructor function in JS
+<a href="https://blogs-ssk.netlify.app/js-factory-constructor">Factory and Constructor functions in JavaScript</a>
 
-#### Constructor property in JS
+<a href="https://blogs-ssk.netlify.app/js-constructorProperty">Constructor property in JavaScript</a>
 
-#### Primitive vs Reference type in JS
+<a href="https://blogs-ssk.netlify.app/js-primitiveVsReference">Primitive vs Reference types in JavaScript</a>
 
-#### For-in & for-of loop in JS
+<a href="https://blogs-ssk.netlify.app/js-forIn&forOf">for in and for of loop in JavaScript</a>
 
-#### Object Cloning in JS
+<a href="https://blogs-ssk.netlify.app/js-objectCloning">Object cloning in JavaScript</a>
 
-#### Debounce & Throttle in JS
+<a href="https://blogs-ssk.netlify.app/js-debounce&Throttle">Debounce and Throttle in JavaScript</a>
+
+<a href="https://blogs-ssk.netlify.app/react-MimicLifecycle">Mimicking lifecycle methods using useEffect hook in React</a>
