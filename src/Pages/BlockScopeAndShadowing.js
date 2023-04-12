@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const BlockScopeAndShadowing = () => {
   const leftCurly = "{";
@@ -12,6 +13,17 @@ const BlockScopeAndShadowing = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Block Scope and Shadowing in JavaScript</title>
+          <meta
+            name="description"
+            content="Learn about shadowing in javascript and what is block scope."
+          />
+          <meta
+            name="keywords"
+            content="shadowing, block scope, let, const, javascript"
+          />
+        </Helmet>
         <h1>Block Scope & Shadowing in JavaScript</h1>
         <h3>Block</h3>
         <p className="space-bottom">
