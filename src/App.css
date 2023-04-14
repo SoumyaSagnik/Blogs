@@ -170,12 +170,12 @@ aside ul {
   border-radius: .75rem;
   position: relative;
   box-shadow: 0 0 .35rem rgba(0, 0, 0, .7);
-  transition: all .5s ease;
+  transition: all .25s ease;
 }
 
 .topic:hover {
   background-color: #252525;
-  scale: 105%;
+  scale: 103%;
   box-shadow: 0.1rem 0.1rem .35rem rgba(0, 0, 0, .5), -0.1rem 0 .35rem rgba(0, 0, 0, .5);
 }
 
