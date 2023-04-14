@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Loader from "./components/Loader";
 import notes from "./meta.json";
 import { AnimatePresence } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const CSSSpecificity = lazy(() => import("./Pages/CSSSpecificity"));
 const JSArrayFunctions = lazy(() => import("./Pages/JSArrayFunctions"));
@@ -65,6 +66,14 @@ const App = () => {
 
   return (
     <main>
+      <Helmet>
+        <title>Blogs by SSK</title>
+        <meta
+          name="description"
+          content="Blog articels related to web development."
+        />
+        <meta name="keywords" content="blog, article" />
+      </Helmet>
       <Header search={notes} searchValue={srch} />
       <AnimatePresence mode="wait" initial={false}>
         <Routes location={location} key={location.pathname}>

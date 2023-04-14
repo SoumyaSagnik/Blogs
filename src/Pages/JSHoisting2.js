@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const JSHoisting2 = () => {
   return (
@@ -10,6 +11,17 @@ const JSHoisting2 = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Hoisting with let & const</title>
+          <meta
+            name="description"
+            content="How let and const are hoisted in javascript"
+          />
+          <meta
+            name="keywords"
+            content="hoisting, let and const, temporal dead zone, let vs var vs const"
+          />
+        </Helmet>
         <h1>Hoisting in JavaScript with let and const</h1>
         <p className="space-bottom">
           let & const declarations are <span className="green">hoisted</span>.

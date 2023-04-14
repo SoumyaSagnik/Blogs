@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const Jargons = () => {
   const leftCurly = "{";
@@ -12,6 +13,17 @@ const Jargons = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Jargons in JS</title>
+          <meta
+            name="description"
+            content="Commonly used jargons in javascript."
+          />
+          <meta
+            name="keywords"
+            content="function expression, function declaration, iife, first class citizen"
+          />
+        </Helmet>
         <h1>Commonly used Jargons in JavaScript</h1>
         <h3>Function Statement / Function Declaration</h3>
         <p className="space-bottom">

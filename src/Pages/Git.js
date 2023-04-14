@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const Git = () => {
   const leftCurly = "{";
@@ -12,6 +13,14 @@ const Git = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Git Basics</title>
+          <meta name="description" content="Overview of git." />
+          <meta
+            name="keywords"
+            content="git, branching, merging, clone, repository, git stash, remote, rebase, commit, gitignore"
+          />
+        </Helmet>
         <h1>Git</h1>
         <p>
           Git is a version control system that allows developers to track

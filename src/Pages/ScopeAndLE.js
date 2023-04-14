@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const ScopeAndLE = () => {
   const leftCurly = "{";
@@ -12,6 +13,17 @@ const ScopeAndLE = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Scope & Lexical Environment</title>
+          <meta
+            name="description"
+            content="Explanation of scope and lexical environment in javascript"
+          />
+          <meta
+            name="keywords"
+            content="scope in javascript, lexical environment, scope chain, execution context"
+          />
+        </Helmet>
         <h1>Scope & Lexical Environment in JavaScript</h1>
         <p>
           <span className="green">Scope</span> in JavaScript is directly related

@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const Callback = () => {
   const leftCurly = "{";
@@ -12,6 +13,17 @@ const Callback = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Callbacks in JS</title>
+          <meta
+            name="description"
+            content="Article on callback functions in javascript."
+          />
+          <meta
+            name="keywords"
+            content="callback function, asynchronous javascript, remove event listner"
+          />
+        </Helmet>
         <h1>Callback Functions in JavaScript</h1>
         <p>
           Functions are{" "}

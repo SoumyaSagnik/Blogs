@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const UndefinedVsNotDefined = () => {
   return (
@@ -10,6 +11,14 @@ const UndefinedVsNotDefined = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>undefiend vs not defined</title>
+          <meta
+            name="description"
+            content="Undefined vs Not Defined in JavaScript"
+          />
+          <meta name="keywords" content="undefined, not defined, javascript" />
+        </Helmet>
         <h1>Undefined vs Not Defined in JavaScript</h1>
         <p>
           In JavaScript, the keyword <span className="green">undefined</span> is

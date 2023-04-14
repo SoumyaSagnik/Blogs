@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const WindowAndThis = () => {
   const leftCurly = "{";
@@ -12,6 +13,17 @@ const WindowAndThis = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>window and this keyword</title>
+          <meta
+            name="description"
+            content="window and this keyword in javascript"
+          />
+          <meta
+            name="keywords"
+            content="window, this keyword, javascript, global object"
+          />
+        </Helmet>
         <h1>window and this keyword in JavaScript</h1>
         <p>
           The <span className="green">window</span> keyword in JavaScript is

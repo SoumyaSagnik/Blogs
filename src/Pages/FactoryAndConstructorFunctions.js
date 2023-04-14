@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const FactoryAndConstructorFunctions = () => {
   const leftCurly = "{";
@@ -12,7 +13,18 @@ const FactoryAndConstructorFunctions = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
-        <h1>Factory function and Constructor function in JavaScript</h1>
+        <Helmet>
+          <title>Factory & Constructor function</title>
+          <meta
+            name="description"
+            content="How to create objects in javascript using factory function and constructor function."
+          />
+          <meta
+            name="keywords"
+            content="factory function, constructor function, javascript"
+          />
+        </Helmet>
+        <h1>Factory & Constructor function in JS</h1>
         <h3>Factory function</h3>
         <p>
           In factory functions, we don't use the{" "}

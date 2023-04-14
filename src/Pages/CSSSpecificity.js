@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const CSSSpecificity = () => {
   const leftCurly = "{";
@@ -15,6 +16,11 @@ const CSSSpecificity = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>CSS Specificity</title>
+          <meta name="description" content="How specificity impacts css." />
+          <meta name="keywords" content="css specificity" />
+        </Helmet>
         <h1>Specificity in CSS</h1>
         <p>
           In CSS, specificity is the measure of how specific a selector is in

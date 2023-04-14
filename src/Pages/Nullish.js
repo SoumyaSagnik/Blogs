@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const Nullish = () => {
   const leftCurly = "{";
@@ -12,6 +13,17 @@ const Nullish = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Nullish Coalescing</title>
+          <meta
+            name="description"
+            content="How to use the nullish coalescing operator in javascript with examples."
+          />
+          <meta
+            name="keywords"
+            content="nullish coalescing, javascript, logical operator"
+          />
+        </Helmet>
         <h1>Nullish coalescing operator (??) in JavaScript</h1>
         <p>
           The nullish coalescing operator is a logical operator that returns its{" "}

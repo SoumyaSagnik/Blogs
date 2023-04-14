@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const JSLooselyTyped = () => {
   return (
@@ -10,6 +11,11 @@ const JSLooselyTyped = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Loosely Typed Language</title>
+          <meta name="description" content="Why javascript is loosely typed" />
+          <meta name="keywords" content="loosely typed, javascript" />
+        </Helmet>
         <h1>JavaScript is a loosely typed language</h1>
         <p>
           A loosely typed language is one that doesn't attach it's variables to

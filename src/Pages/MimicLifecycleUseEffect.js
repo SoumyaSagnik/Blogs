@@ -1,6 +1,7 @@
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const useEffectExample = `useEffect(() => {
   // code to be executed whenever component re-renders
@@ -32,6 +33,17 @@ const MimicLifecycleUseEffect = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Mimic Lifecycle methods</title>
+          <meta
+            name="description"
+            content="mimicking the lifecycle methods using useEffect hook"
+          />
+          <meta
+            name="keywords"
+            content="useEffect, componentdidMount, componentDidUpdate, componentWillUnmont"
+          />
+        </Helmet>
         <h1>Mimicking lifecycle methods using useEffect hook</h1>
         <h3>useEffect hook</h3>
         <p>

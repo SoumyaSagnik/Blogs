@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const PrimitiveVsReference = () => {
   const leftCurly = "{";
@@ -12,6 +13,14 @@ const PrimitiveVsReference = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Primitive vs Reference</title>
+          <meta
+            name="description"
+            content="Differences between primitives and reference in javascript"
+          />
+          <meta name="keywords" content="primitive vs reference, javascript" />
+        </Helmet>
         <h1>Primitive vs Reference types in JavaScript</h1>
         <p>
           In JavaScript, there are two categories of data types:{" "}

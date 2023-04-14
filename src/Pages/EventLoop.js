@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const EventLoop = () => {
   const leftCurly = "{";
@@ -12,6 +13,17 @@ const EventLoop = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Event Loop</title>
+          <meta
+            name="description"
+            content="Detailed explanation of event loop in javascript."
+          />
+          <meta
+            name="keywords"
+            content="web api, setTimeout, internal working, event listner, callback queue, microtask queue, fetch in javascript, starvation"
+          />
+        </Helmet>
         <h1>Event Loop in JavaScript</h1>
         <p className="white">
           JavaScript is a synchronous single threaded language.

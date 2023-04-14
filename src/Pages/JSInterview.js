@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const JSInterview = () => {
   const leftCurly = "{";
@@ -12,6 +13,14 @@ const JSInterview = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Interview Questions</title>
+          <meta
+            name="description"
+            content="Popular javascript interview questions."
+          />
+          <meta name="keywords" content="interview, javascript" />
+        </Helmet>
         <h1>JavaScript Interview Questions</h1>
         <p className="space-bottom">
           Here are some interesting JavaScript interview questions.

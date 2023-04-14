@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const JSHoisting = () => {
   const leftCurly = "{";
@@ -12,6 +13,17 @@ const JSHoisting = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Hoisting in JS with var</title>
+          <meta
+            name="description"
+            content="In depth explanation of hoisting in javascript with var."
+          />
+          <meta
+            name="keywords"
+            content="hoisting, execution context, memory creation phase, code execution phase, javascript"
+          />
+        </Helmet>
         <h1>Hoisting in JavaScript with var</h1>
         <p className="white">
           Hoisting is the phenomenon in JavaScript by which we can access

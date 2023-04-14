@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const DebounceAndThrottle = () => {
   const leftCurly = "{";
@@ -12,6 +13,14 @@ const DebounceAndThrottle = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Debounce & Throttle</title>
+          <meta
+            name="description"
+            content="Debounce and throttle explanation with example."
+          />
+          <meta name="keywords" content="debounce, throttle, javascript" />
+        </Helmet>
         <h1>Debounce and Throttle in JavaScript</h1>
         <p className="space-bottom">
           In JavaScript, booth debounce and throttle are{" "}

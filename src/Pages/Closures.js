@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const Closures = () => {
   const leftCurly = "{";
@@ -12,6 +13,14 @@ const Closures = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Closures</title>
+          <meta
+            name="description"
+            content="Deep dive into closures in javascript."
+          />
+          <meta name="keywords" content="closure, lexical environment" />
+        </Helmet>
         <h1>Closures in JavaScript</h1>
         <p className="space-bottom">
           A <span className="green">function</span> along with its{" "}

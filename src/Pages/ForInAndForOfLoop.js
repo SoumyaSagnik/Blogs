@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const ForInAndForOfLoop = () => {
   const leftCurly = "{";
@@ -12,6 +13,17 @@ const ForInAndForOfLoop = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>for-in & for-of loop</title>
+          <meta
+            name="description"
+            content="how to use for-in and for-of loop in javascript"
+          />
+          <meta
+            name="keywords"
+            content="for-in loop, for-of loop, javascript"
+          />
+        </Helmet>
         <h1>for-in and for-of loop in JavaScript</h1>
         <h3>for-in loop</h3>
         <p className="space-bottom white">

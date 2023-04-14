@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const ConstructorProperty = () => {
   const leftCurly = "{";
@@ -12,6 +13,14 @@ const ConstructorProperty = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Constructor property</title>
+          <meta
+            name="description"
+            content="Article on constructor property in javascript."
+          />
+          <meta name="keywords" content="constructor, property, javascript" />
+        </Helmet>
         <h1>Constructor property in JavaScript</h1>
         <p className="white">
           In JavaScript, every object has a special property called{" "}

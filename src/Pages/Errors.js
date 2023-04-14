@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const Errors = () => {
   return (
@@ -10,6 +11,14 @@ const Errors = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Error types in Javascript</title>
+          <meta name="description" content="Types of errors in javascript" />
+          <meta
+            name="keywords"
+            content="syntax error, type error, reference error"
+          />
+        </Helmet>
         <h1>Types of Errors in JavaScript</h1>
         <h3>Syntax Error</h3>
         <p className="space-bottom">

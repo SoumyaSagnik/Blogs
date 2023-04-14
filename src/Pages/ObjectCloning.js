@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const ObjectCloning = () => {
   const leftCurly = "{";
@@ -12,6 +13,17 @@ const ObjectCloning = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Object Cloning in JS</title>
+          <meta
+            name="description"
+            content="Different ways to clone an object in javascript."
+          />
+          <meta
+            name="keywords"
+            content="object clone, spread operator, json, constructor function"
+          />
+        </Helmet>
         <h1>Object Cloning in JavaScript</h1>
         <p>
           Object is a{" "}

@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const JSArrayFunctions = () => {
   const left = "(";
@@ -14,6 +15,17 @@ const JSArrayFunctions = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>JS Array Functions</title>
+          <meta
+            name="description"
+            content="Commonly used array functions in javascript with examples"
+          />
+          <meta
+            name="keywords"
+            content="javascript, array functions, splice, slice, map, reduce, filter, forEach, pop, push, shift, unshift, concat"
+          />
+        </Helmet>
         <h1>JavaScript Array Functions</h1>
         <p>
           JavaScript has several built-in functions that can be used to

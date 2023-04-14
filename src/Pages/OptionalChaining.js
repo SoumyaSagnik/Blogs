@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const OptionalChaining = () => {
   const leftCurly = "{";
@@ -12,6 +13,14 @@ const OptionalChaining = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Optional Chaining in JavaScript</title>
+          <meta
+            name="description"
+            content="How to use optional chaining in javascript with examples."
+          />
+          <meta name="keywords" content="optional chaining, javascript" />
+        </Helmet>
         <h1>Optionaling Chaining in JavaScript</h1>
         <p>
           The optional chaining <span className="white">(?.)</span> operator

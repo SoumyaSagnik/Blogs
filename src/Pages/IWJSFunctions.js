@@ -1,5 +1,6 @@
 import Code from "../components/Code";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const IWJSFunctions = () => {
   const leftCurly = "{";
@@ -12,6 +13,17 @@ const IWJSFunctions = () => {
       transition={{ duration: 0.25 }}
     >
       <div className="content page">
+        <Helmet>
+          <title>Internal Working of JS Functions</title>
+          <meta
+            name="description"
+            content="Internal working of javascript functions"
+          />
+          <meta
+            name="keywords"
+            content="internal working javascript, execution context"
+          />
+        </Helmet>
         <h1>Internal Working of JS Functions</h1>
         <p>
           Functions are a crucial part of JavaScript. In this article, you'll
