@@ -126,6 +126,17 @@ const JSInterview = () => {
           We are calling the function post the required time which gives us the
           desired output.
         </p>
+        <p className="space-top">
+          Complete list can be found{" "}
+          <a
+            href="https://github.com/SoumyaSagnik/Interview-Questions#frontend-interview-questions"
+            target="_blank"
+            rel="noreferrer"
+          >
+            here
+          </a>
+          .
+        </p>
       </div>
     </motion.div>
   );
