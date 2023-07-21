@@ -70,7 +70,7 @@ const App = () => {
         <title>Blogs by SSK</title>
         <meta
           name="description"
-          content="Blog articels related to web development."
+          content="Blog articles related to web development."
         />
         <meta name="keywords" content="blog, article" />
       </Helmet>
