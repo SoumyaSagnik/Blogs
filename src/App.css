@@ -1,15 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&display=swap');
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Sansita';
+  src: url(./fonts/Sansita/Sansita-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url(./fonts/Sansita/Sansita-Italic.ttf) format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url(./fonts/Sansita/Sansita-Bold.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 body {
   background-color: #181818;
   color: whitesmoke;
-  font-family: 'Gentium Plus', serif;
+  font-family: 'Sansita', serif;
 }
 
 main {
