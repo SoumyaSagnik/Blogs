@@ -45,9 +45,9 @@ aside {
   background-color: #181818;
   padding: 1rem;
   line-height: 1.5rem;
-  max-height: 90%;
-  overflow-y: scroll;
-  /* margin-left: 15vw; */
+  height: auto;
+  overflow-y: auto;
+  border-right: .2rem solid #1f1d1d;
 }
 
 aside h2 {
@@ -568,20 +568,24 @@ aside h2::selection {
 
 aside::-webkit-scrollbar {
   width: .2rem;
+  display: none;
 }
 
 aside::-webkit-scrollbar-track {
   border-radius: 100vw;
   margin-block: .1rem;
+  display: none;
 }
 
 aside::-webkit-scrollbar-thumb {
   background-color: #1f1d1d;
   border-radius: 100vw;
+  display: none;
 }
 
 aside::-webkit-scrollbar-thumb:hover {
   background-color: #666060;
+  display: none;
 }
 
 .codeSnippet::-webkit-scrollbar {

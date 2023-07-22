@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 
-const Sidebar = ({ data }) => {
+const Sidebar = ({ data, height }) => {
   let location = useLocation();
   const currentTitle = location.pathname;
   const asideLinks = data.filter((d) => d.link !== currentTitle);
@@ -12,7 +12,7 @@ const Sidebar = ({ data }) => {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.25 }}
     >
-      <aside>
+      <aside style={{ height: height ?? "90%" }}>
         <h2>Other Topics</h2>
         <ul>
           {asideLinks.map((item) => (

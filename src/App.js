@@ -82,7 +82,7 @@ const App = () => {
             path="/css-specificity"
             element={
               <Suspense fallback={<Loader />}>
-                <Sidebar data={notes} />
+                <Sidebar data={notes} height="57.5rem" />
                 <CSSSpecificity />
               </Suspense>
             }
@@ -127,7 +127,7 @@ const App = () => {
             path="/js-windowAndthis"
             element={
               <Suspense fallback={<Loader />}>
-                <Sidebar data={notes} />
+                <Sidebar data={notes} height="90rem" />
                 <WindowAndThis />
               </Suspense>
             }
@@ -145,7 +145,7 @@ const App = () => {
             path="/js-loosely-typed"
             element={
               <Suspense fallback={<Loader />}>
-                <Sidebar data={notes} />
+                <Sidebar data={notes} height="33rem" />
                 <JSLooselyTyped />
               </Suspense>
             }
@@ -172,7 +172,7 @@ const App = () => {
             path="/js-errors"
             element={
               <Suspense fallback={<Loader />}>
-                <Sidebar data={notes} />
+                <Sidebar data={notes} height="50rem" />
                 <Errors />
               </Suspense>
             }
@@ -199,7 +199,7 @@ const App = () => {
             path="/js-interview"
             element={
               <Suspense fallback={<Loader />}>
-                <Sidebar data={notes} />
+                <Sidebar data={notes} height="60rem" />
                 <JSInterview />
               </Suspense>
             }
@@ -244,7 +244,7 @@ const App = () => {
             path="/js-nullish"
             element={
               <Suspense fallback={<Loader />}>
-                <Sidebar data={notes} />
+                <Sidebar data={notes} height="65rem" />
                 <Nullish />
               </Suspense>
             }
@@ -253,7 +253,7 @@ const App = () => {
             path="/js-factory-constructor"
             element={
               <Suspense fallback={<Loader />}>
-                <Sidebar data={notes} />
+                <Sidebar data={notes} height="80rem" />
                 <FactoryAndConstructorFunctions />
               </Suspense>
             }
@@ -307,7 +307,7 @@ const App = () => {
             path="/react-MimicLifecycle"
             element={
               <Suspense fallback={<Loader />}>
-                <Sidebar data={notes} />
+                <Sidebar data={notes} height="85rem" />
                 <MimicLifecycleUseEffect />
               </Suspense>
             }
