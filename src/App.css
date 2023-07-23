@@ -401,6 +401,10 @@ footer img#mail {
   .code-body {
     width: 87vw;
   }
+
+  .content.page h1 {
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 500px) {
@@ -599,10 +603,10 @@ aside::-webkit-scrollbar-thumb:hover {
 }
 
 .codeSnippet::-webkit-scrollbar-thumb {
-  background-color: hsl(231, 15%, 30%);
+  background-color: hsl(0, 0%, 16%);
   border-radius: 100vw;
 }
 
 .codeSnippet::-webkit-scrollbar-thumb:hover {
-  background-color: hsl(231, 15%, 45%);
+  background-color: hsl(0, 0%, 20%);
 }

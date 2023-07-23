@@ -1,5 +1,5 @@
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { cb } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { motion } from "framer-motion";
 import { Helmet } from "react-helmet";
 
@@ -56,33 +56,32 @@ const MimicLifecycleUseEffect = () => {
         </p>
         <SyntaxHighlighter
           language="javascript"
-          style={dracula}
+          style={cb}
           className="codeSnippet"
         >
           {useEffectExample}
         </SyntaxHighlighter>
-        <p className="white">
+        <p className="white space-bottom">
           If we don't pass the dependencies array, the code inside the useEffect
           will be executed everytime the component re-renders.
         </p>
         <h3>Mimicking componentDidMount</h3>
         <SyntaxHighlighter
           language="javascript"
-          style={dracula}
+          style={cb}
           className="codeSnippet"
         >
           {componentDidMount}
         </SyntaxHighlighter>
-        <p>
+        <p className="space-bottom">
           The <span className="white">empty array</span> tells React that the
           effect should run only once, after the component has mounted. This is
           equivalent to <span className="white">componentDidMount</span>.
         </p>
-        <p className="space-top"></p>
         <h3>Mimicking componentDidUpdate</h3>
         <SyntaxHighlighter
           language="javascript"
-          style={dracula}
+          style={cb}
           className="codeSnippet"
         >
           {componentDidUpdate}
@@ -92,10 +91,10 @@ const MimicLifecycleUseEffect = () => {
           the dependencies array change.
         </p>
         <p className="space-top"></p>
-        <h3>Mimicking componenWillUnmount</h3>
+        <h3>Mimicking componentWillUnmount</h3>
         <SyntaxHighlighter
           language="javascript"
-          style={dracula}
+          style={cb}
           className="codeSnippet"
         >
           {componentWillUnmount}
