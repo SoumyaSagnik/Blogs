@@ -599,10 +599,10 @@ aside::-webkit-scrollbar-thumb:hover {
 }
 
 .codeSnippet::-webkit-scrollbar-thumb {
-  background-color: hsl(231, 15%, 30%);
+  background-color: hsl(0, 0%, 16%);
   border-radius: 100vw;
 }
 
 .codeSnippet::-webkit-scrollbar-thumb:hover {
-  background-color: hsl(231, 15%, 45%);
+  background-color: hsl(0, 0%, 20%);
 }
