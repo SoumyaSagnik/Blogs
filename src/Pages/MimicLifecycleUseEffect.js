@@ -92,7 +92,7 @@ const MimicLifecycleUseEffect = () => {
           the dependencies array change.
         </p>
         <p className="space-top"></p>
-        <h3>Mimicking componenWillUnmount</h3>
+        <h3>Mimicking componentWillUnmount</h3>
         <SyntaxHighlighter
           language="javascript"
           style={dracula}
