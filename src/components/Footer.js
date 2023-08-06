@@ -1,14 +1,19 @@
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LanguageIcon from "@mui/icons-material/Language";
+import MailRoundedIcon from "@mui/icons-material/MailRounded";
+
 const Footer = ({ screenSize }) => {
   return (
     <footer style={{ top: screenSize }}>
       <ul>
         <li>
           <a
-            href="http://portfolio.soumyakhanda.tech/"
+            href="https://soumyakhanda.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={require(`../images/name.png`)} alt="SSK" id="name" />
+            <LanguageIcon fontSize="medium" />
           </a>
         </li>
         <li>
@@ -17,11 +22,7 @@ const Footer = ({ screenSize }) => {
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              src={require(`../images/github.png`)}
-              alt="GitHub"
-              id="github"
-            />
+            <GitHubIcon fontSize="medium" />
           </a>
         </li>
         <li>
@@ -30,16 +31,12 @@ const Footer = ({ screenSize }) => {
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              src={require(`../images/linkedin.png`)}
-              alt="linkedin"
-              id="linkedin"
-            />
+            <LinkedInIcon fontSize="medium" />
           </a>
         </li>
         <li>
           <a href="mailto:soumyasagnik@gmail.com">
-            <img src={require(`../images/email.png`)} alt="mail" id="mail" />
+            <MailRoundedIcon fontSize="medium" />
           </a>
         </li>
       </ul>
