@@ -1,10 +1,15 @@
-import Code from "../components/Code";
 import { motion } from "framer-motion";
 import { Helmet } from "react-helmet";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { cb } from "react-syntax-highlighter/dist/esm/styles/prism";
+
+const codeSnippet = `#navbar a { color: blue; } // 101 points
+.navbar a { color: pink; } // 11 points
+.navbar .nav:hover a { color: red; } // 31 points
+#navbar .nav[type='text'] a { color: black; } // 121 points
+a { color: green; } // 1 point`;
 
 const CSSSpecificity = () => {
-  const leftCurly = "{";
-  const rightCurly = "}";
   const left = "(";
   const right = ")";
   const greater = ">";
@@ -66,38 +71,10 @@ const CSSSpecificity = () => {
           </li>
         </ul>
 
-        <p className="space-top">Example:</p>
-        <Code />
-        <pre>
-          <div className="code-body">
-            <p>
-              <span className="red">#navbar</span> a {leftCurly}{" "}
-              <span className="pink">color</span>: blue; {rightCurly}{" "}
-              <span className="white">--101 points</span>
-            </p>
-            <p>
-              <span className="yellow">.navbar</span> a {leftCurly}{" "}
-              <span className="pink">color</span>: pink; {rightCurly}{" "}
-              <span className="white">--11 points</span>
-            </p>
-            <p>
-              <span className="yellow">.navbar .nav:hover</span> a {leftCurly}{" "}
-              <span className="pink">color</span>: red; {rightCurly}{" "}
-              <span className="white">--31 points</span>
-            </p>
-            <p>
-              <span className="red">#navbar</span>
-              <span className="yellow"> .nav[type='text']</span> a {leftCurly}{" "}
-              <span className="pink">color</span>: black; {rightCurly}{" "}
-              <span className="white">--121 points</span>
-            </p>
-            <p>
-              a {leftCurly} <span className="pink">color</span>: green;{" "}
-              {rightCurly} <span className="white">--1 point</span>
-            </p>
-          </div>
-        </pre>
-        <p className="space-all white bold">
+        <SyntaxHighlighter language="css" style={cb} className="codeSnippet">
+          {codeSnippet}
+        </SyntaxHighlighter>
+        <p className="space-bottom white bold">
           Formula: {left}no. of ID selectors{right} * 100 + {left}no. of class
           selectors{right} * 10 + {left}no. of type selectors{right} * 1
         </p>
@@ -114,7 +91,7 @@ const CSSSpecificity = () => {
           difficult to understand and maintain the code.
         </p>
 
-        <p className="space-all white bold">
+        <p className="space-top white bold">
           Final rule: !important {greater} Inline CSS {greater} ID {greater}{" "}
           Class {greater} Tag.
         </p>
