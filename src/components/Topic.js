@@ -7,9 +7,6 @@ const Topic = ({ topic, type, desc, link }) => {
         <h4>{topic}</h4>
         <p>{desc}</p>
         <img src={require(`../../public/images/${type}.png`)} alt="error" />
-        {/* <button>
-        <Link to={link}>Read</Link>
-      </button> */}
       </div>
     </Link>
   );
