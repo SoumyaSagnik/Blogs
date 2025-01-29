@@ -27,7 +27,7 @@ const Footer = ({ screenSize }) => {
         </li>
         <li>
           <a
-            href="https://www.linkedin.com/in/soumya-sagnik-khanda-0446641b8/"
+            href="https://www.linkedin.com/in/soumyakhanda/"
             target="_blank"
             rel="noreferrer"
           >
